@@ -8,6 +8,9 @@ public class CalculateUserLevelTest {
 
     @Test
     public void updateExp() {
+        CalculateUserLevel calculateUserLevel = new CalculateUserLevel();
+
+
     }
 
     @Test

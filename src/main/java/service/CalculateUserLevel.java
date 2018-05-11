@@ -19,6 +19,9 @@ public class CalculateUserLevel {
         szint = user.getSzint();
     }
 
+    public CalculateUserLevel() {
+    }
+
     public Long updateExp(ObservableList observableList){
 
 

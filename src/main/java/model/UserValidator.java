@@ -11,6 +11,9 @@ public class UserValidator {
         this.ud = ud;
     }
 
+    public UserValidator() {
+    }
+
     public boolean loginValidate(String username, String password){
         List<Users> usersLista = ud.find(username);
 
