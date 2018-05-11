@@ -1,0 +1,3672 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@codd.inf.unideb.hu">
+  <database-model serializer="dbm" rdbms="ORACLE" format-version="4.8">
+    <root id="1">
+      <ServerVersion>12.1.0.2</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="U_S8869R">
+      <ObjectId>588</ObjectId>
+      <IntrospectionTimestamp>2018-05-11.23:45:08</IntrospectionTimestamp>
+      <CreatedTimestamp>2017-11-20.17:47:12</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-02.21:31:31</ModifiedTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="AUDSYS">
+      <ObjectId>7</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="SYSTEM">
+      <ObjectId>8</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="OUTLN">
+      <ObjectId>13</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="GSMADMIN_INTERNAL">
+      <ObjectId>21</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="GSMUSER">
+      <ObjectId>22</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="DIP">
+      <ObjectId>23</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="ORACLE_OCM">
+      <ObjectId>36</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="DBSNMP">
+      <ObjectId>48</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="APPQOSSYS">
+      <ObjectId>49</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="XDB">
+      <ObjectId>50</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="ANONYMOUS">
+      <ObjectId>51</ObjectId>
+    </schema>
+    <schema id="16" parent="1" name="GSMCATUSER">
+      <ObjectId>61</ObjectId>
+    </schema>
+    <schema id="17" parent="1" name="WMSYS">
+      <ObjectId>62</ObjectId>
+    </schema>
+    <schema id="18" parent="1" name="OJVMSYS">
+      <ObjectId>70</ObjectId>
+    </schema>
+    <schema id="19" parent="1" name="CTXSYS">
+      <ObjectId>73</ObjectId>
+    </schema>
+    <schema id="20" parent="1" name="ORDSYS">
+      <ObjectId>75</ObjectId>
+    </schema>
+    <schema id="21" parent="1" name="ORDDATA">
+      <ObjectId>76</ObjectId>
+    </schema>
+    <schema id="22" parent="1" name="ORDPLUGINS">
+      <ObjectId>77</ObjectId>
+    </schema>
+    <schema id="23" parent="1" name="SI_INFORMTN_SCHEMA">
+      <ObjectId>78</ObjectId>
+    </schema>
+    <schema id="24" parent="1" name="MDSYS">
+      <ObjectId>79</ObjectId>
+    </schema>
+    <schema id="25" parent="1" name="OLAPSYS">
+      <ObjectId>82</ObjectId>
+    </schema>
+    <schema id="26" parent="1" name="MDDATA">
+      <ObjectId>85</ObjectId>
+    </schema>
+    <schema id="27" parent="1" name="SPATIAL_WFS_ADMIN_USR">
+      <ObjectId>87</ObjectId>
+    </schema>
+    <schema id="28" parent="1" name="SPATIAL_CSW_ADMIN_USR">
+      <ObjectId>90</ObjectId>
+    </schema>
+    <schema id="29" parent="1" name="LBACSYS">
+      <ObjectId>92</ObjectId>
+    </schema>
+    <schema id="30" parent="1" name="FLOWS_FILES">
+      <ObjectId>94</ObjectId>
+    </schema>
+    <schema id="31" parent="1" name="APEX_PUBLIC_USER">
+      <ObjectId>95</ObjectId>
+    </schema>
+    <schema id="32" parent="1" name="APEX_040200">
+      <ObjectId>98</ObjectId>
+    </schema>
+    <schema id="33" parent="1" name="DVF">
+      <ObjectId>99</ObjectId>
+    </schema>
+    <schema id="34" parent="1" name="HR">
+      <ObjectId>102</ObjectId>
+    </schema>
+    <schema id="35" parent="1" name="IX">
+      <ObjectId>104</ObjectId>
+    </schema>
+    <schema id="36" parent="1" name="SH">
+      <ObjectId>105</ObjectId>
+    </schema>
+    <schema id="37" parent="1" name="PM">
+      <ObjectId>106</ObjectId>
+    </schema>
+    <schema id="38" parent="1" name="BI">
+      <ObjectId>107</ObjectId>
+    </schema>
+    <schema id="39" parent="1" name="OE">
+      <ObjectId>109</ObjectId>
+    </schema>
+    <schema id="40" parent="1" name="SCOTT">
+      <ObjectId>110</ObjectId>
+    </schema>
+    <schema id="41" parent="1" name="PANOVICS">
+      <ObjectId>111</ObjectId>
+    </schema>
+    <schema id="42" parent="1" name="VAGNERA">
+      <ObjectId>112</ObjectId>
+    </schema>
+    <schema id="43" parent="1" name="CODD_MANAGER">
+      <ObjectId>113</ObjectId>
+    </schema>
+    <schema id="44" parent="1" name="ADAMKOA">
+      <ObjectId>122</ObjectId>
+    </schema>
+    <schema id="45" parent="1" name="ZICHARM">
+      <ObjectId>123</ObjectId>
+    </schema>
+    <schema id="46" parent="1" name="JESZY">
+      <ObjectId>124</ObjectId>
+    </schema>
+    <schema id="47" parent="1" name="HARANGIB">
+      <ObjectId>125</ObjectId>
+    </schema>
+    <schema id="48" parent="1" name="ISPANYM">
+      <ObjectId>126</ObjectId>
+    </schema>
+    <schema id="49" parent="1" name="MKOSA">
+      <ObjectId>127</ObjectId>
+    </schema>
+    <schema id="50" parent="1" name="PECH">
+      <ObjectId>128</ObjectId>
+    </schema>
+    <schema id="51" parent="1" name="BUJDOSOGY">
+      <ObjectId>129</ObjectId>
+    </schema>
+    <schema id="52" parent="1" name="ANGYAL">
+      <ObjectId>130</ObjectId>
+    </schema>
+    <schema id="53" parent="1" name="KOCSISG">
+      <ObjectId>131</ObjectId>
+    </schema>
+    <schema id="54" parent="1" name="COSTIP">
+      <ObjectId>132</ObjectId>
+    </schema>
+    <schema id="55" parent="1" name="BERTALAN">
+      <ObjectId>133</ObjectId>
+    </schema>
+    <schema id="56" parent="1" name="TBALLA">
+      <ObjectId>134</ObjectId>
+    </schema>
+    <schema id="57" parent="1" name="ANIKO">
+      <ObjectId>135</ObjectId>
+    </schema>
+    <schema id="58" parent="1" name="KONYVTAR">
+      <ObjectId>138</ObjectId>
+    </schema>
+    <schema id="59" parent="1" name="KADEK">
+      <ObjectId>139</ObjectId>
+    </schema>
+    <schema id="60" parent="1" name="OLIMPIA">
+      <ObjectId>140</ObjectId>
+    </schema>
+    <schema id="61" parent="1" name="VALLALAT">
+      <ObjectId>141</ObjectId>
+    </schema>
+    <schema id="62" parent="1" name="REPULOJEGY">
+      <ObjectId>142</ObjectId>
+    </schema>
+    <schema id="63" parent="1" name="SZERELO">
+      <ObjectId>143</ObjectId>
+    </schema>
+    <schema id="64" parent="1" name="VASUT">
+      <ObjectId>144</ObjectId>
+    </schema>
+    <schema id="65" parent="1" name="CARMECHANIC">
+      <ObjectId>145</ObjectId>
+    </schema>
+    <schema id="66" parent="1" name="HDBMS16">
+      <ObjectId>146</ObjectId>
+    </schema>
+    <schema id="67" parent="1" name="BOOK_LIBRARY">
+      <ObjectId>147</ObjectId>
+    </schema>
+    <schema id="68" parent="1" name="OLYMPICS">
+      <ObjectId>148</ObjectId>
+    </schema>
+    <schema id="69" parent="1" name="SMARTCAMPUS">
+      <ObjectId>150</ObjectId>
+    </schema>
+    <schema id="70" parent="1" name="U_BFAZBX">
+      <ObjectId>153</ObjectId>
+    </schema>
+    <schema id="71" parent="1" name="U_QWL2MM">
+      <ObjectId>154</ObjectId>
+    </schema>
+    <schema id="72" parent="1" name="U_RPJTJT">
+      <ObjectId>155</ObjectId>
+    </schema>
+    <schema id="73" parent="1" name="U_G6GQS9">
+      <ObjectId>156</ObjectId>
+    </schema>
+    <schema id="74" parent="1" name="U_L6I54V">
+      <ObjectId>157</ObjectId>
+    </schema>
+    <schema id="75" parent="1" name="U_PJYWAR">
+      <ObjectId>158</ObjectId>
+    </schema>
+    <schema id="76" parent="1" name="U_UPDKJY">
+      <ObjectId>159</ObjectId>
+    </schema>
+    <schema id="77" parent="1" name="U_KMPVBQ">
+      <ObjectId>160</ObjectId>
+    </schema>
+    <schema id="78" parent="1" name="U_FG0QZT">
+      <ObjectId>161</ObjectId>
+    </schema>
+    <schema id="79" parent="1" name="U_VGY4TX">
+      <ObjectId>162</ObjectId>
+    </schema>
+    <schema id="80" parent="1" name="U_Q8V8J4">
+      <ObjectId>163</ObjectId>
+    </schema>
+    <schema id="81" parent="1" name="U_GNZOTS">
+      <ObjectId>164</ObjectId>
+    </schema>
+    <schema id="82" parent="1" name="U_UP7DCI">
+      <ObjectId>165</ObjectId>
+    </schema>
+    <schema id="83" parent="1" name="U_ETW74N">
+      <ObjectId>166</ObjectId>
+    </schema>
+    <schema id="84" parent="1" name="U_LZBH9M">
+      <ObjectId>167</ObjectId>
+    </schema>
+    <schema id="85" parent="1" name="U_EARXGC">
+      <ObjectId>168</ObjectId>
+    </schema>
+    <schema id="86" parent="1" name="U_LG6B9K">
+      <ObjectId>169</ObjectId>
+    </schema>
+    <schema id="87" parent="1" name="U_G1SXSD">
+      <ObjectId>170</ObjectId>
+    </schema>
+    <schema id="88" parent="1" name="U_XAD782">
+      <ObjectId>171</ObjectId>
+    </schema>
+    <schema id="89" parent="1" name="U_EGJLOU">
+      <ObjectId>172</ObjectId>
+    </schema>
+    <schema id="90" parent="1" name="U_K7QR6Q">
+      <ObjectId>173</ObjectId>
+    </schema>
+    <schema id="91" parent="1" name="U_HK2CUH">
+      <ObjectId>174</ObjectId>
+    </schema>
+    <schema id="92" parent="1" name="U_LKA0S4">
+      <ObjectId>175</ObjectId>
+    </schema>
+    <schema id="93" parent="1" name="U_LROREQ">
+      <ObjectId>176</ObjectId>
+    </schema>
+    <schema id="94" parent="1" name="U_DUMIIU">
+      <ObjectId>177</ObjectId>
+    </schema>
+    <schema id="95" parent="1" name="U_JQQQN3">
+      <ObjectId>178</ObjectId>
+    </schema>
+    <schema id="96" parent="1" name="U_GYM4AL">
+      <ObjectId>179</ObjectId>
+    </schema>
+    <schema id="97" parent="1" name="U_RMT3CW">
+      <ObjectId>180</ObjectId>
+    </schema>
+    <schema id="98" parent="1" name="U_NA6ANZ">
+      <ObjectId>181</ObjectId>
+    </schema>
+    <schema id="99" parent="1" name="U_VZV3C2">
+      <ObjectId>182</ObjectId>
+    </schema>
+    <schema id="100" parent="1" name="U_NEZN64">
+      <ObjectId>183</ObjectId>
+    </schema>
+    <schema id="101" parent="1" name="U_H2CGD4">
+      <ObjectId>184</ObjectId>
+    </schema>
+    <schema id="102" parent="1" name="U_HYQHVW">
+      <ObjectId>185</ObjectId>
+    </schema>
+    <schema id="103" parent="1" name="U_D5E9FG">
+      <ObjectId>186</ObjectId>
+    </schema>
+    <schema id="104" parent="1" name="U_URE6PK">
+      <ObjectId>187</ObjectId>
+    </schema>
+    <schema id="105" parent="1" name="U_M6X07X">
+      <ObjectId>188</ObjectId>
+    </schema>
+    <schema id="106" parent="1" name="U_F59T1W">
+      <ObjectId>189</ObjectId>
+    </schema>
+    <schema id="107" parent="1" name="U_F2HGLR">
+      <ObjectId>190</ObjectId>
+    </schema>
+    <schema id="108" parent="1" name="U_F6S9YA">
+      <ObjectId>191</ObjectId>
+    </schema>
+    <schema id="109" parent="1" name="U_AAPYG3">
+      <ObjectId>192</ObjectId>
+    </schema>
+    <schema id="110" parent="1" name="U_V5212A">
+      <ObjectId>193</ObjectId>
+    </schema>
+    <schema id="111" parent="1" name="U_KPO0KE">
+      <ObjectId>194</ObjectId>
+    </schema>
+    <schema id="112" parent="1" name="U_HL6R3Y">
+      <ObjectId>195</ObjectId>
+    </schema>
+    <schema id="113" parent="1" name="U_JKB1XQ">
+      <ObjectId>196</ObjectId>
+    </schema>
+    <schema id="114" parent="1" name="U_SZOY32">
+      <ObjectId>197</ObjectId>
+    </schema>
+    <schema id="115" parent="1" name="U_BAMIMI">
+      <ObjectId>198</ObjectId>
+    </schema>
+    <schema id="116" parent="1" name="U_EB7TS6">
+      <ObjectId>199</ObjectId>
+    </schema>
+    <schema id="117" parent="1" name="U_PKF9EB">
+      <ObjectId>200</ObjectId>
+    </schema>
+    <schema id="118" parent="1" name="U_TWH42V">
+      <ObjectId>201</ObjectId>
+    </schema>
+    <schema id="119" parent="1" name="U_DBQNG0">
+      <ObjectId>202</ObjectId>
+    </schema>
+    <schema id="120" parent="1" name="U_I6F4TK">
+      <ObjectId>203</ObjectId>
+    </schema>
+    <schema id="121" parent="1" name="U_R558BQ">
+      <ObjectId>204</ObjectId>
+    </schema>
+    <schema id="122" parent="1" name="U_TH8DPZ">
+      <ObjectId>205</ObjectId>
+    </schema>
+    <schema id="123" parent="1" name="U_F9ZA1I">
+      <ObjectId>206</ObjectId>
+    </schema>
+    <schema id="124" parent="1" name="U_EOGS46">
+      <ObjectId>207</ObjectId>
+    </schema>
+    <schema id="125" parent="1" name="U_AYWLRY">
+      <ObjectId>208</ObjectId>
+    </schema>
+    <schema id="126" parent="1" name="U_R3PB3B">
+      <ObjectId>209</ObjectId>
+    </schema>
+    <schema id="127" parent="1" name="U_PVGTII">
+      <ObjectId>210</ObjectId>
+    </schema>
+    <schema id="128" parent="1" name="U_B7EJ63">
+      <ObjectId>211</ObjectId>
+    </schema>
+    <schema id="129" parent="1" name="U_I6JED0">
+      <ObjectId>212</ObjectId>
+    </schema>
+    <schema id="130" parent="1" name="U_L0LCID">
+      <ObjectId>213</ObjectId>
+    </schema>
+    <schema id="131" parent="1" name="U_GQCLNY">
+      <ObjectId>214</ObjectId>
+    </schema>
+    <schema id="132" parent="1" name="U_UK8VHW">
+      <ObjectId>215</ObjectId>
+    </schema>
+    <schema id="133" parent="1" name="U_BXV787">
+      <ObjectId>216</ObjectId>
+    </schema>
+    <schema id="134" parent="1" name="U_RJE6OA">
+      <ObjectId>217</ObjectId>
+    </schema>
+    <schema id="135" parent="1" name="U_RGGV4V">
+      <ObjectId>218</ObjectId>
+    </schema>
+    <schema id="136" parent="1" name="U_JD93QW">
+      <ObjectId>219</ObjectId>
+    </schema>
+    <schema id="137" parent="1" name="U_NKIL2W">
+      <ObjectId>220</ObjectId>
+    </schema>
+    <schema id="138" parent="1" name="U_DK8KEM">
+      <ObjectId>221</ObjectId>
+    </schema>
+    <schema id="139" parent="1" name="U_IWGSNT">
+      <ObjectId>222</ObjectId>
+    </schema>
+    <schema id="140" parent="1" name="U_ESF176">
+      <ObjectId>223</ObjectId>
+    </schema>
+    <schema id="141" parent="1" name="U_ES9C7F">
+      <ObjectId>224</ObjectId>
+    </schema>
+    <schema id="142" parent="1" name="U_IGOEMW">
+      <ObjectId>225</ObjectId>
+    </schema>
+    <schema id="143" parent="1" name="U_IVEOXK">
+      <ObjectId>226</ObjectId>
+    </schema>
+    <schema id="144" parent="1" name="U_YW7BKB">
+      <ObjectId>227</ObjectId>
+    </schema>
+    <schema id="145" parent="1" name="U_RM8SNN">
+      <ObjectId>228</ObjectId>
+    </schema>
+    <schema id="146" parent="1" name="U_CWXAHX">
+      <ObjectId>229</ObjectId>
+    </schema>
+    <schema id="147" parent="1" name="U_A66KDQ">
+      <ObjectId>230</ObjectId>
+    </schema>
+    <schema id="148" parent="1" name="U_V02LU6">
+      <ObjectId>231</ObjectId>
+    </schema>
+    <schema id="149" parent="1" name="U_G3279F">
+      <ObjectId>232</ObjectId>
+    </schema>
+    <schema id="150" parent="1" name="U_KJI0RR">
+      <ObjectId>233</ObjectId>
+    </schema>
+    <schema id="151" parent="1" name="U_IIMFMR">
+      <ObjectId>234</ObjectId>
+    </schema>
+    <schema id="152" parent="1" name="U_DEDEYK">
+      <ObjectId>235</ObjectId>
+    </schema>
+    <schema id="153" parent="1" name="U_KHGC6M">
+      <ObjectId>236</ObjectId>
+    </schema>
+    <schema id="154" parent="1" name="U_PMC75E">
+      <ObjectId>237</ObjectId>
+    </schema>
+    <schema id="155" parent="1" name="U_GHY2IX">
+      <ObjectId>238</ObjectId>
+    </schema>
+    <schema id="156" parent="1" name="U_DOLDH2">
+      <ObjectId>239</ObjectId>
+    </schema>
+    <schema id="157" parent="1" name="U_QVSMYU">
+      <ObjectId>240</ObjectId>
+    </schema>
+    <schema id="158" parent="1" name="U_YNP1D0">
+      <ObjectId>241</ObjectId>
+    </schema>
+    <schema id="159" parent="1" name="U_HGNYKR">
+      <ObjectId>242</ObjectId>
+    </schema>
+    <schema id="160" parent="1" name="U_PGEYCI">
+      <ObjectId>243</ObjectId>
+    </schema>
+    <schema id="161" parent="1" name="U_K1527V">
+      <ObjectId>244</ObjectId>
+    </schema>
+    <schema id="162" parent="1" name="U_IMIW4G">
+      <ObjectId>245</ObjectId>
+    </schema>
+    <schema id="163" parent="1" name="U_YDYQ6O">
+      <ObjectId>246</ObjectId>
+    </schema>
+    <schema id="164" parent="1" name="U_RUMXGL">
+      <ObjectId>247</ObjectId>
+    </schema>
+    <schema id="165" parent="1" name="U_EITTSY">
+      <ObjectId>248</ObjectId>
+    </schema>
+    <schema id="166" parent="1" name="U_R81R6N">
+      <ObjectId>249</ObjectId>
+    </schema>
+    <schema id="167" parent="1" name="U_HF1NF8">
+      <ObjectId>250</ObjectId>
+    </schema>
+    <schema id="168" parent="1" name="U_JODDBC">
+      <ObjectId>251</ObjectId>
+    </schema>
+    <schema id="169" parent="1" name="U_JK8HYU">
+      <ObjectId>252</ObjectId>
+    </schema>
+    <schema id="170" parent="1" name="U_CF9PYQ">
+      <ObjectId>253</ObjectId>
+    </schema>
+    <schema id="171" parent="1" name="U_IMTWSN">
+      <ObjectId>254</ObjectId>
+    </schema>
+    <schema id="172" parent="1" name="U_XNFP4F">
+      <ObjectId>255</ObjectId>
+    </schema>
+    <schema id="173" parent="1" name="U_T3ZA0K">
+      <ObjectId>256</ObjectId>
+    </schema>
+    <schema id="174" parent="1" name="U_D29P3D">
+      <ObjectId>257</ObjectId>
+    </schema>
+    <schema id="175" parent="1" name="U_IG1QFF">
+      <ObjectId>258</ObjectId>
+    </schema>
+    <schema id="176" parent="1" name="U_ABJFA3">
+      <ObjectId>259</ObjectId>
+    </schema>
+    <schema id="177" parent="1" name="U_W7347E">
+      <ObjectId>260</ObjectId>
+    </schema>
+    <schema id="178" parent="1" name="U_F9964R">
+      <ObjectId>261</ObjectId>
+    </schema>
+    <schema id="179" parent="1" name="U_SZ0P9F">
+      <ObjectId>262</ObjectId>
+    </schema>
+    <schema id="180" parent="1" name="U_S0L9L9">
+      <ObjectId>263</ObjectId>
+    </schema>
+    <schema id="181" parent="1" name="U_RVNSX7">
+      <ObjectId>264</ObjectId>
+    </schema>
+    <schema id="182" parent="1" name="U_XG7QDM">
+      <ObjectId>265</ObjectId>
+    </schema>
+    <schema id="183" parent="1" name="U_ED64KD">
+      <ObjectId>266</ObjectId>
+    </schema>
+    <schema id="184" parent="1" name="U_I0M1TO">
+      <ObjectId>267</ObjectId>
+    </schema>
+    <schema id="185" parent="1" name="U_GJGMG1">
+      <ObjectId>268</ObjectId>
+    </schema>
+    <schema id="186" parent="1" name="U_AYM3DQ">
+      <ObjectId>269</ObjectId>
+    </schema>
+    <schema id="187" parent="1" name="U_EZCGS5">
+      <ObjectId>270</ObjectId>
+    </schema>
+    <schema id="188" parent="1" name="U_DUPVF9">
+      <ObjectId>271</ObjectId>
+    </schema>
+    <schema id="189" parent="1" name="U_EJ1ZZU">
+      <ObjectId>272</ObjectId>
+    </schema>
+    <schema id="190" parent="1" name="U_SVNRMF">
+      <ObjectId>273</ObjectId>
+    </schema>
+    <schema id="191" parent="1" name="U_SF08R1">
+      <ObjectId>274</ObjectId>
+    </schema>
+    <schema id="192" parent="1" name="U_UQHDWM">
+      <ObjectId>275</ObjectId>
+    </schema>
+    <schema id="193" parent="1" name="U_UY0N5H">
+      <ObjectId>276</ObjectId>
+    </schema>
+    <schema id="194" parent="1" name="U_VD1T28">
+      <ObjectId>277</ObjectId>
+    </schema>
+    <schema id="195" parent="1" name="U_F4KYMX">
+      <ObjectId>278</ObjectId>
+    </schema>
+    <schema id="196" parent="1" name="U_G6LLDN">
+      <ObjectId>279</ObjectId>
+    </schema>
+    <schema id="197" parent="1" name="U_FRN51C">
+      <ObjectId>280</ObjectId>
+    </schema>
+    <schema id="198" parent="1" name="U_E6VEXN">
+      <ObjectId>281</ObjectId>
+    </schema>
+    <schema id="199" parent="1" name="U_B0XRNU">
+      <ObjectId>282</ObjectId>
+    </schema>
+    <schema id="200" parent="1" name="U_U474PI">
+      <ObjectId>283</ObjectId>
+    </schema>
+    <schema id="201" parent="1" name="U_NHG5VQ">
+      <ObjectId>284</ObjectId>
+    </schema>
+    <schema id="202" parent="1" name="U_NMVGI7">
+      <ObjectId>285</ObjectId>
+    </schema>
+    <schema id="203" parent="1" name="U_DZ100T">
+      <ObjectId>286</ObjectId>
+    </schema>
+    <schema id="204" parent="1" name="U_AF163M">
+      <ObjectId>287</ObjectId>
+    </schema>
+    <schema id="205" parent="1" name="U_FS1T0X">
+      <ObjectId>288</ObjectId>
+    </schema>
+    <schema id="206" parent="1" name="U_I2B1UV">
+      <ObjectId>289</ObjectId>
+    </schema>
+    <schema id="207" parent="1" name="U_JJCVGX">
+      <ObjectId>290</ObjectId>
+    </schema>
+    <schema id="208" parent="1" name="U_ELZ91G">
+      <ObjectId>291</ObjectId>
+    </schema>
+    <schema id="209" parent="1" name="U_O0L6XY">
+      <ObjectId>292</ObjectId>
+    </schema>
+    <schema id="210" parent="1" name="U_PBRDYJ">
+      <ObjectId>293</ObjectId>
+    </schema>
+    <schema id="211" parent="1" name="U_NR8DCU">
+      <ObjectId>294</ObjectId>
+    </schema>
+    <schema id="212" parent="1" name="U_E500B8">
+      <ObjectId>295</ObjectId>
+    </schema>
+    <schema id="213" parent="1" name="U_TC2RG3">
+      <ObjectId>296</ObjectId>
+    </schema>
+    <schema id="214" parent="1" name="U_WD9SML">
+      <ObjectId>297</ObjectId>
+    </schema>
+    <schema id="215" parent="1" name="U_AWFX4M">
+      <ObjectId>298</ObjectId>
+    </schema>
+    <schema id="216" parent="1" name="U_L51TT1">
+      <ObjectId>299</ObjectId>
+    </schema>
+    <schema id="217" parent="1" name="U_FSR2NO">
+      <ObjectId>300</ObjectId>
+    </schema>
+    <schema id="218" parent="1" name="U_I2RKNJ">
+      <ObjectId>301</ObjectId>
+    </schema>
+    <schema id="219" parent="1" name="U_WPH8LY">
+      <ObjectId>302</ObjectId>
+    </schema>
+    <schema id="220" parent="1" name="U_VEM613">
+      <ObjectId>303</ObjectId>
+    </schema>
+    <schema id="221" parent="1" name="U_CVB84I">
+      <ObjectId>304</ObjectId>
+    </schema>
+    <schema id="222" parent="1" name="U_RZLWH1">
+      <ObjectId>305</ObjectId>
+    </schema>
+    <schema id="223" parent="1" name="U_BDFV7J">
+      <ObjectId>306</ObjectId>
+    </schema>
+    <schema id="224" parent="1" name="U_WCI1M8">
+      <ObjectId>307</ObjectId>
+    </schema>
+    <schema id="225" parent="1" name="U_MF1PP1">
+      <ObjectId>308</ObjectId>
+    </schema>
+    <schema id="226" parent="1" name="U_J6S4ZT">
+      <ObjectId>309</ObjectId>
+    </schema>
+    <schema id="227" parent="1" name="U_AGNWCZ">
+      <ObjectId>310</ObjectId>
+    </schema>
+    <schema id="228" parent="1" name="U_FM5FP5">
+      <ObjectId>311</ObjectId>
+    </schema>
+    <schema id="229" parent="1" name="U_O953WZ">
+      <ObjectId>312</ObjectId>
+    </schema>
+    <schema id="230" parent="1" name="U_BBIQD5">
+      <ObjectId>313</ObjectId>
+    </schema>
+    <schema id="231" parent="1" name="U_FLFM7S">
+      <ObjectId>314</ObjectId>
+    </schema>
+    <schema id="232" parent="1" name="U_EEZP5R">
+      <ObjectId>315</ObjectId>
+    </schema>
+    <schema id="233" parent="1" name="U_EBR5JG">
+      <ObjectId>316</ObjectId>
+    </schema>
+    <schema id="234" parent="1" name="U_JSELWU">
+      <ObjectId>317</ObjectId>
+    </schema>
+    <schema id="235" parent="1" name="U_FTC0YP">
+      <ObjectId>318</ObjectId>
+    </schema>
+    <schema id="236" parent="1" name="U_GDK2FL">
+      <ObjectId>319</ObjectId>
+    </schema>
+    <schema id="237" parent="1" name="U_U2ZMX8">
+      <ObjectId>320</ObjectId>
+    </schema>
+    <schema id="238" parent="1" name="U_YVEAPC">
+      <ObjectId>321</ObjectId>
+    </schema>
+    <schema id="239" parent="1" name="U_BFSG41">
+      <ObjectId>322</ObjectId>
+    </schema>
+    <schema id="240" parent="1" name="U_A9XEV2">
+      <ObjectId>323</ObjectId>
+    </schema>
+    <schema id="241" parent="1" name="U_ID51BR">
+      <ObjectId>324</ObjectId>
+    </schema>
+    <schema id="242" parent="1" name="U_B2IHAA">
+      <ObjectId>325</ObjectId>
+    </schema>
+    <schema id="243" parent="1" name="U_KFPTVB">
+      <ObjectId>326</ObjectId>
+    </schema>
+    <schema id="244" parent="1" name="U_TXDSJ8">
+      <ObjectId>327</ObjectId>
+    </schema>
+    <schema id="245" parent="1" name="U_SEA6UR">
+      <ObjectId>328</ObjectId>
+    </schema>
+    <schema id="246" parent="1" name="U_UYSIT7">
+      <ObjectId>329</ObjectId>
+    </schema>
+    <schema id="247" parent="1" name="U_A66BL2">
+      <ObjectId>330</ObjectId>
+    </schema>
+    <schema id="248" parent="1" name="U_CMN1E3">
+      <ObjectId>331</ObjectId>
+    </schema>
+    <schema id="249" parent="1" name="U_VWVZYA">
+      <ObjectId>332</ObjectId>
+    </schema>
+    <schema id="250" parent="1" name="U_HA6Z4Q">
+      <ObjectId>333</ObjectId>
+    </schema>
+    <schema id="251" parent="1" name="U_EZ00TO">
+      <ObjectId>334</ObjectId>
+    </schema>
+    <schema id="252" parent="1" name="U_HYH6Q5">
+      <ObjectId>335</ObjectId>
+    </schema>
+    <schema id="253" parent="1" name="U_QFUOWF">
+      <ObjectId>336</ObjectId>
+    </schema>
+    <schema id="254" parent="1" name="U_FYZITN">
+      <ObjectId>337</ObjectId>
+    </schema>
+    <schema id="255" parent="1" name="U_DCCX5H">
+      <ObjectId>338</ObjectId>
+    </schema>
+    <schema id="256" parent="1" name="U_HSF2D5">
+      <ObjectId>339</ObjectId>
+    </schema>
+    <schema id="257" parent="1" name="U_D4SPCP">
+      <ObjectId>340</ObjectId>
+    </schema>
+    <schema id="258" parent="1" name="U_DPI4S0">
+      <ObjectId>341</ObjectId>
+    </schema>
+    <schema id="259" parent="1" name="U_DU7EY4">
+      <ObjectId>342</ObjectId>
+    </schema>
+    <schema id="260" parent="1" name="U_X7ISA9">
+      <ObjectId>343</ObjectId>
+    </schema>
+    <schema id="261" parent="1" name="U_PTZ2F9">
+      <ObjectId>344</ObjectId>
+    </schema>
+    <schema id="262" parent="1" name="U_HY6OVR">
+      <ObjectId>345</ObjectId>
+    </schema>
+    <schema id="263" parent="1" name="U_FAVP20">
+      <ObjectId>346</ObjectId>
+    </schema>
+    <schema id="264" parent="1" name="U_EFAOVA">
+      <ObjectId>347</ObjectId>
+    </schema>
+    <schema id="265" parent="1" name="U_THTAH4">
+      <ObjectId>348</ObjectId>
+    </schema>
+    <schema id="266" parent="1" name="U_BBWA1I">
+      <ObjectId>349</ObjectId>
+    </schema>
+    <schema id="267" parent="1" name="U_JW0JQS">
+      <ObjectId>350</ObjectId>
+    </schema>
+    <schema id="268" parent="1" name="U_UPF1RT">
+      <ObjectId>351</ObjectId>
+    </schema>
+    <schema id="269" parent="1" name="U_WMAKEB">
+      <ObjectId>352</ObjectId>
+    </schema>
+    <schema id="270" parent="1" name="U_FG93D6">
+      <ObjectId>353</ObjectId>
+    </schema>
+    <schema id="271" parent="1" name="U_PF5GOF">
+      <ObjectId>354</ObjectId>
+    </schema>
+    <schema id="272" parent="1" name="U_GRI88S">
+      <ObjectId>355</ObjectId>
+    </schema>
+    <schema id="273" parent="1" name="U_RMIK8N">
+      <ObjectId>356</ObjectId>
+    </schema>
+    <schema id="274" parent="1" name="U_KTXMH0">
+      <ObjectId>357</ObjectId>
+    </schema>
+    <schema id="275" parent="1" name="U_FKEQQS">
+      <ObjectId>358</ObjectId>
+    </schema>
+    <schema id="276" parent="1" name="U_SJ8S9V">
+      <ObjectId>359</ObjectId>
+    </schema>
+    <schema id="277" parent="1" name="U_XE2RI7">
+      <ObjectId>360</ObjectId>
+    </schema>
+    <schema id="278" parent="1" name="U_PSI2NS">
+      <ObjectId>361</ObjectId>
+    </schema>
+    <schema id="279" parent="1" name="U_HRN7IE">
+      <ObjectId>362</ObjectId>
+    </schema>
+    <schema id="280" parent="1" name="U_I839XU">
+      <ObjectId>363</ObjectId>
+    </schema>
+    <schema id="281" parent="1" name="U_X29ENE">
+      <ObjectId>364</ObjectId>
+    </schema>
+    <schema id="282" parent="1" name="U_U79UYF">
+      <ObjectId>365</ObjectId>
+    </schema>
+    <schema id="283" parent="1" name="U_JK320S">
+      <ObjectId>366</ObjectId>
+    </schema>
+    <schema id="284" parent="1" name="U_LUPHYL">
+      <ObjectId>367</ObjectId>
+    </schema>
+    <schema id="285" parent="1" name="U_HAFW8M">
+      <ObjectId>368</ObjectId>
+    </schema>
+    <schema id="286" parent="1" name="U_CC1LCY">
+      <ObjectId>369</ObjectId>
+    </schema>
+    <schema id="287" parent="1" name="U_BQ8P8H">
+      <ObjectId>370</ObjectId>
+    </schema>
+    <schema id="288" parent="1" name="U_YXLN7T">
+      <ObjectId>371</ObjectId>
+    </schema>
+    <schema id="289" parent="1" name="U_FKJ8YU">
+      <ObjectId>372</ObjectId>
+    </schema>
+    <schema id="290" parent="1" name="U_Z64XMG">
+      <ObjectId>373</ObjectId>
+    </schema>
+    <schema id="291" parent="1" name="U_KXSPLP">
+      <ObjectId>374</ObjectId>
+    </schema>
+    <schema id="292" parent="1" name="U_UQXGSG">
+      <ObjectId>375</ObjectId>
+    </schema>
+    <schema id="293" parent="1" name="U_WUJJ9L">
+      <ObjectId>376</ObjectId>
+    </schema>
+    <schema id="294" parent="1" name="U_DXUZV4">
+      <ObjectId>377</ObjectId>
+    </schema>
+    <schema id="295" parent="1" name="U_T9Y65K">
+      <ObjectId>378</ObjectId>
+    </schema>
+    <schema id="296" parent="1" name="U_U5KA1V">
+      <ObjectId>379</ObjectId>
+    </schema>
+    <schema id="297" parent="1" name="U_P2849H">
+      <ObjectId>380</ObjectId>
+    </schema>
+    <schema id="298" parent="1" name="U_A55YPW">
+      <ObjectId>381</ObjectId>
+    </schema>
+    <schema id="299" parent="1" name="U_C5DURI">
+      <ObjectId>382</ObjectId>
+    </schema>
+    <schema id="300" parent="1" name="U_EJRFDQ">
+      <ObjectId>383</ObjectId>
+    </schema>
+    <schema id="301" parent="1" name="U_I02FBH">
+      <ObjectId>384</ObjectId>
+    </schema>
+    <schema id="302" parent="1" name="U_GA5MSV">
+      <ObjectId>385</ObjectId>
+    </schema>
+    <schema id="303" parent="1" name="U_GVRZP6">
+      <ObjectId>386</ObjectId>
+    </schema>
+    <schema id="304" parent="1" name="U_AQHHKX">
+      <ObjectId>387</ObjectId>
+    </schema>
+    <schema id="305" parent="1" name="U_ZAJAGM">
+      <ObjectId>388</ObjectId>
+    </schema>
+    <schema id="306" parent="1" name="U_GYTO5Y">
+      <ObjectId>389</ObjectId>
+    </schema>
+    <schema id="307" parent="1" name="U_BY1FO4">
+      <ObjectId>390</ObjectId>
+    </schema>
+    <schema id="308" parent="1" name="U_H0FOND">
+      <ObjectId>391</ObjectId>
+    </schema>
+    <schema id="309" parent="1" name="U_B4TPDO">
+      <ObjectId>392</ObjectId>
+    </schema>
+    <schema id="310" parent="1" name="U_EN03R9">
+      <ObjectId>393</ObjectId>
+    </schema>
+    <schema id="311" parent="1" name="U_YEZ5LV">
+      <ObjectId>394</ObjectId>
+    </schema>
+    <schema id="312" parent="1" name="U_EQ0SQQ">
+      <ObjectId>395</ObjectId>
+    </schema>
+    <schema id="313" parent="1" name="U_D39NNS">
+      <ObjectId>396</ObjectId>
+    </schema>
+    <schema id="314" parent="1" name="U_R9RXZU">
+      <ObjectId>397</ObjectId>
+    </schema>
+    <schema id="315" parent="1" name="U_AJX5X6">
+      <ObjectId>398</ObjectId>
+    </schema>
+    <schema id="316" parent="1" name="U_IXN0U8">
+      <ObjectId>399</ObjectId>
+    </schema>
+    <schema id="317" parent="1" name="U_QR1PGB">
+      <ObjectId>400</ObjectId>
+    </schema>
+    <schema id="318" parent="1" name="U_CV384W">
+      <ObjectId>401</ObjectId>
+    </schema>
+    <schema id="319" parent="1" name="U_HBD34C">
+      <ObjectId>402</ObjectId>
+    </schema>
+    <schema id="320" parent="1" name="U_AN6E7L">
+      <ObjectId>403</ObjectId>
+    </schema>
+    <schema id="321" parent="1" name="U_AV1P8P">
+      <ObjectId>404</ObjectId>
+    </schema>
+    <schema id="322" parent="1" name="U_XER6DR">
+      <ObjectId>405</ObjectId>
+    </schema>
+    <schema id="323" parent="1" name="U_I60P2N">
+      <ObjectId>406</ObjectId>
+    </schema>
+    <schema id="324" parent="1" name="U_H794B0">
+      <ObjectId>407</ObjectId>
+    </schema>
+    <schema id="325" parent="1" name="U_CTJMGD">
+      <ObjectId>408</ObjectId>
+    </schema>
+    <schema id="326" parent="1" name="U_FNY7K8">
+      <ObjectId>409</ObjectId>
+    </schema>
+    <schema id="327" parent="1" name="U_GWLSFR">
+      <ObjectId>410</ObjectId>
+    </schema>
+    <schema id="328" parent="1" name="U_HX75UX">
+      <ObjectId>411</ObjectId>
+    </schema>
+    <schema id="329" parent="1" name="U_JKU3NK">
+      <ObjectId>412</ObjectId>
+    </schema>
+    <schema id="330" parent="1" name="U_CC9SVQ">
+      <ObjectId>413</ObjectId>
+    </schema>
+    <schema id="331" parent="1" name="U_L2K10F">
+      <ObjectId>414</ObjectId>
+    </schema>
+    <schema id="332" parent="1" name="U_DOETEK">
+      <ObjectId>415</ObjectId>
+    </schema>
+    <schema id="333" parent="1" name="U_AA9OV3">
+      <ObjectId>416</ObjectId>
+    </schema>
+    <schema id="334" parent="1" name="U_FUU5MV">
+      <ObjectId>417</ObjectId>
+    </schema>
+    <schema id="335" parent="1" name="U_IG0CUQ">
+      <ObjectId>418</ObjectId>
+    </schema>
+    <schema id="336" parent="1" name="U_PXKOTM">
+      <ObjectId>419</ObjectId>
+    </schema>
+    <schema id="337" parent="1" name="U_F0LHC6">
+      <ObjectId>420</ObjectId>
+    </schema>
+    <schema id="338" parent="1" name="U_GRBPF7">
+      <ObjectId>421</ObjectId>
+    </schema>
+    <schema id="339" parent="1" name="U_IYTG16">
+      <ObjectId>422</ObjectId>
+    </schema>
+    <schema id="340" parent="1" name="U_TFWD7U">
+      <ObjectId>423</ObjectId>
+    </schema>
+    <schema id="341" parent="1" name="U_P86PA3">
+      <ObjectId>424</ObjectId>
+    </schema>
+    <schema id="342" parent="1" name="U_N3P8EV">
+      <ObjectId>425</ObjectId>
+    </schema>
+    <schema id="343" parent="1" name="U_ESKWXF">
+      <ObjectId>426</ObjectId>
+    </schema>
+    <schema id="344" parent="1" name="U_C8ZBBQ">
+      <ObjectId>427</ObjectId>
+    </schema>
+    <schema id="345" parent="1" name="U_BQVTR0">
+      <ObjectId>428</ObjectId>
+    </schema>
+    <schema id="346" parent="1" name="U_BRQROU">
+      <ObjectId>429</ObjectId>
+    </schema>
+    <schema id="347" parent="1" name="U_O2JUQC">
+      <ObjectId>430</ObjectId>
+    </schema>
+    <schema id="348" parent="1" name="DZSONI">
+      <ObjectId>431</ObjectId>
+    </schema>
+    <schema id="349" parent="1" name="MESEHOS">
+      <ObjectId>432</ObjectId>
+    </schema>
+    <schema id="350" parent="1" name="U_F6I9N6">
+      <ObjectId>433</ObjectId>
+    </schema>
+    <schema id="351" parent="1" name="U_F5HDS9">
+      <ObjectId>434</ObjectId>
+    </schema>
+    <schema id="352" parent="1" name="U_WHDGCP">
+      <ObjectId>435</ObjectId>
+    </schema>
+    <schema id="353" parent="1" name="U_F3GU4B">
+      <ObjectId>436</ObjectId>
+    </schema>
+    <schema id="354" parent="1" name="U_UR4CB8">
+      <ObjectId>437</ObjectId>
+    </schema>
+    <schema id="355" parent="1" name="U_HC7QTZ">
+      <ObjectId>438</ObjectId>
+    </schema>
+    <schema id="356" parent="1" name="U_JGC3SQ">
+      <ObjectId>439</ObjectId>
+    </schema>
+    <schema id="357" parent="1" name="U_C7UNGM">
+      <ObjectId>440</ObjectId>
+    </schema>
+    <schema id="358" parent="1" name="U_A3OODN">
+      <ObjectId>441</ObjectId>
+    </schema>
+    <schema id="359" parent="1" name="U_IK65DY">
+      <ObjectId>442</ObjectId>
+    </schema>
+    <schema id="360" parent="1" name="U_PA94VZ">
+      <ObjectId>443</ObjectId>
+    </schema>
+    <schema id="361" parent="1" name="U_OPBY6S">
+      <ObjectId>444</ObjectId>
+    </schema>
+    <schema id="362" parent="1" name="U_Q5LPPU">
+      <ObjectId>445</ObjectId>
+    </schema>
+    <schema id="363" parent="1" name="U_KFZGXD">
+      <ObjectId>446</ObjectId>
+    </schema>
+    <schema id="364" parent="1" name="U_C4ZSXR">
+      <ObjectId>447</ObjectId>
+    </schema>
+    <schema id="365" parent="1" name="U_VGFF9Z">
+      <ObjectId>448</ObjectId>
+    </schema>
+    <schema id="366" parent="1" name="U_CUZ27N">
+      <ObjectId>449</ObjectId>
+    </schema>
+    <schema id="367" parent="1" name="U_A328XY">
+      <ObjectId>450</ObjectId>
+    </schema>
+    <schema id="368" parent="1" name="U_HE9I54">
+      <ObjectId>451</ObjectId>
+    </schema>
+    <schema id="369" parent="1" name="U_D57XLQ">
+      <ObjectId>452</ObjectId>
+    </schema>
+    <schema id="370" parent="1" name="U_IHLY7Z">
+      <ObjectId>453</ObjectId>
+    </schema>
+    <schema id="371" parent="1" name="U_STZPNG">
+      <ObjectId>454</ObjectId>
+    </schema>
+    <schema id="372" parent="1" name="U_FFB4L8">
+      <ObjectId>455</ObjectId>
+    </schema>
+    <schema id="373" parent="1" name="U_GAWKUW">
+      <ObjectId>456</ObjectId>
+    </schema>
+    <schema id="374" parent="1" name="U_X5H4ZF">
+      <ObjectId>457</ObjectId>
+    </schema>
+    <schema id="375" parent="1" name="U_FP78S5">
+      <ObjectId>458</ObjectId>
+    </schema>
+    <schema id="376" parent="1" name="U_JJ95D1">
+      <ObjectId>459</ObjectId>
+    </schema>
+    <schema id="377" parent="1" name="U_ROYB6U">
+      <ObjectId>460</ObjectId>
+    </schema>
+    <schema id="378" parent="1" name="ANTALBALINT">
+      <ObjectId>461</ObjectId>
+    </schema>
+    <schema id="379" parent="1" name="U_KG7LM6">
+      <ObjectId>462</ObjectId>
+    </schema>
+    <schema id="380" parent="1" name="U_RAYM82">
+      <ObjectId>463</ObjectId>
+    </schema>
+    <schema id="381" parent="1" name="U_H13XBE">
+      <ObjectId>464</ObjectId>
+    </schema>
+    <schema id="382" parent="1" name="U_ZBDQFQ">
+      <ObjectId>465</ObjectId>
+    </schema>
+    <schema id="383" parent="1" name="U_BETIHL">
+      <ObjectId>466</ObjectId>
+    </schema>
+    <schema id="384" parent="1" name="U_A0GP5I">
+      <ObjectId>467</ObjectId>
+    </schema>
+    <schema id="385" parent="1" name="BERIKA">
+      <ObjectId>468</ObjectId>
+    </schema>
+    <schema id="386" parent="1" name="AUTOKOLCSONZO">
+      <ObjectId>469</ObjectId>
+    </schema>
+    <schema id="387" parent="1" name="U_KEAT7H">
+      <ObjectId>470</ObjectId>
+    </schema>
+    <schema id="388" parent="1" name="U_HD5YHY">
+      <ObjectId>471</ObjectId>
+    </schema>
+    <schema id="389" parent="1" name="U_FLVU6R">
+      <ObjectId>472</ObjectId>
+    </schema>
+    <schema id="390" parent="1" name="U_GP31UY">
+      <ObjectId>473</ObjectId>
+    </schema>
+    <schema id="391" parent="1" name="U_FAVLMN">
+      <ObjectId>474</ObjectId>
+    </schema>
+    <schema id="392" parent="1" name="U_QA2UCK">
+      <ObjectId>475</ObjectId>
+    </schema>
+    <schema id="393" parent="1" name="U_NXZ10S">
+      <ObjectId>476</ObjectId>
+    </schema>
+    <schema id="394" parent="1" name="U_HWRUV3">
+      <ObjectId>477</ObjectId>
+    </schema>
+    <schema id="395" parent="1" name="U_T4L7D8">
+      <ObjectId>478</ObjectId>
+    </schema>
+    <schema id="396" parent="1" name="UO_GZ212U">
+      <ObjectId>479</ObjectId>
+    </schema>
+    <schema id="397" parent="1" name="UO_JG94DX">
+      <ObjectId>480</ObjectId>
+    </schema>
+    <schema id="398" parent="1" name="UO_HJTCXH">
+      <ObjectId>481</ObjectId>
+    </schema>
+    <schema id="399" parent="1" name="UO_BZ2DS4">
+      <ObjectId>482</ObjectId>
+    </schema>
+    <schema id="400" parent="1" name="UO_VR5I2G">
+      <ObjectId>483</ObjectId>
+    </schema>
+    <schema id="401" parent="1" name="UO_P0ZM78">
+      <ObjectId>484</ObjectId>
+    </schema>
+    <schema id="402" parent="1" name="UO_DQMLVZ">
+      <ObjectId>485</ObjectId>
+    </schema>
+    <schema id="403" parent="1" name="UO_S970F1">
+      <ObjectId>486</ObjectId>
+    </schema>
+    <schema id="404" parent="1" name="UO_CT0NX1">
+      <ObjectId>487</ObjectId>
+    </schema>
+    <schema id="405" parent="1" name="UO_GRD0F1">
+      <ObjectId>488</ObjectId>
+    </schema>
+    <schema id="406" parent="1" name="UO_MHLHK2">
+      <ObjectId>489</ObjectId>
+    </schema>
+    <schema id="407" parent="1" name="UO_E8JG0V">
+      <ObjectId>490</ObjectId>
+    </schema>
+    <schema id="408" parent="1" name="UO_OQ4RAA">
+      <ObjectId>491</ObjectId>
+    </schema>
+    <schema id="409" parent="1" name="UO_ZFBKK6">
+      <ObjectId>492</ObjectId>
+    </schema>
+    <schema id="410" parent="1" name="UO_A3JHYC">
+      <ObjectId>493</ObjectId>
+    </schema>
+    <schema id="411" parent="1" name="UO_AMJEJD">
+      <ObjectId>494</ObjectId>
+    </schema>
+    <schema id="412" parent="1" name="UO_GMABZ2">
+      <ObjectId>495</ObjectId>
+    </schema>
+    <schema id="413" parent="1" name="UO_IGY2OV">
+      <ObjectId>496</ObjectId>
+    </schema>
+    <schema id="414" parent="1" name="UO_VAZ7XE">
+      <ObjectId>497</ObjectId>
+    </schema>
+    <schema id="415" parent="1" name="UO_AVYY0Q">
+      <ObjectId>498</ObjectId>
+    </schema>
+    <schema id="416" parent="1" name="UO_MB1MJL">
+      <ObjectId>499</ObjectId>
+    </schema>
+    <schema id="417" parent="1" name="UO_DA4OK0">
+      <ObjectId>500</ObjectId>
+    </schema>
+    <schema id="418" parent="1" name="UO_I9M0FI">
+      <ObjectId>501</ObjectId>
+    </schema>
+    <schema id="419" parent="1" name="UO_MNRXYB">
+      <ObjectId>502</ObjectId>
+    </schema>
+    <schema id="420" parent="1" name="UO_FA6VHM">
+      <ObjectId>503</ObjectId>
+    </schema>
+    <schema id="421" parent="1" name="UO_FCLD43">
+      <ObjectId>504</ObjectId>
+    </schema>
+    <schema id="422" parent="1" name="UO_XJ0KDH">
+      <ObjectId>505</ObjectId>
+    </schema>
+    <schema id="423" parent="1" name="ADBMS16">
+      <ObjectId>506</ObjectId>
+    </schema>
+    <schema id="424" parent="1" name="ADBMS17">
+      <ObjectId>507</ObjectId>
+    </schema>
+    <schema id="425" parent="1" name="HDBMS17">
+      <ObjectId>508</ObjectId>
+    </schema>
+    <schema id="426" parent="1" name="UO_VIK9BK">
+      <ObjectId>511</ObjectId>
+    </schema>
+    <schema id="427" parent="1" name="UO_K0TRZW">
+      <ObjectId>512</ObjectId>
+    </schema>
+    <schema id="428" parent="1" name="UO_OR5NN5">
+      <ObjectId>513</ObjectId>
+    </schema>
+    <schema id="429" parent="1" name="U_AG7SI5">
+      <ObjectId>514</ObjectId>
+    </schema>
+    <schema id="430" parent="1" name="U_BO6EC7">
+      <ObjectId>515</ObjectId>
+    </schema>
+    <schema id="431" parent="1" name="U_CEVQPX">
+      <ObjectId>516</ObjectId>
+    </schema>
+    <schema id="432" parent="1" name="U_FXT6ES">
+      <ObjectId>517</ObjectId>
+    </schema>
+    <schema id="433" parent="1" name="U_G7J9NK">
+      <ObjectId>518</ObjectId>
+    </schema>
+    <schema id="434" parent="1" name="U_GRB6VI">
+      <ObjectId>519</ObjectId>
+    </schema>
+    <schema id="435" parent="1" name="U_JBRE9H">
+      <ObjectId>520</ObjectId>
+    </schema>
+    <schema id="436" parent="1" name="U_JW40ZO">
+      <ObjectId>521</ObjectId>
+    </schema>
+    <schema id="437" parent="1" name="U_MA8OV5">
+      <ObjectId>522</ObjectId>
+    </schema>
+    <schema id="438" parent="1" name="U_T6MPY4">
+      <ObjectId>523</ObjectId>
+    </schema>
+    <schema id="439" parent="1" name="U_VSTY5N">
+      <ObjectId>524</ObjectId>
+    </schema>
+    <schema id="440" parent="1" name="U_VVKRLH">
+      <ObjectId>525</ObjectId>
+    </schema>
+    <schema id="441" parent="1" name="U_Y1I8UG">
+      <ObjectId>526</ObjectId>
+    </schema>
+    <schema id="442" parent="1" name="U_RKFFY4">
+      <ObjectId>527</ObjectId>
+    </schema>
+    <schema id="443" parent="1" name="U_C4EB95">
+      <ObjectId>528</ObjectId>
+    </schema>
+    <schema id="444" parent="1" name="U_PYWXQ6">
+      <ObjectId>529</ObjectId>
+    </schema>
+    <schema id="445" parent="1" name="U_EQXIHU">
+      <ObjectId>530</ObjectId>
+    </schema>
+    <schema id="446" parent="1" name="U_JXR9X2">
+      <ObjectId>531</ObjectId>
+    </schema>
+    <schema id="447" parent="1" name="U_YHA99I">
+      <ObjectId>532</ObjectId>
+    </schema>
+    <schema id="448" parent="1" name="U_RAU39M">
+      <ObjectId>533</ObjectId>
+    </schema>
+    <schema id="449" parent="1" name="U_R2KRUT">
+      <ObjectId>534</ObjectId>
+    </schema>
+    <schema id="450" parent="1" name="TIBA">
+      <ObjectId>535</ObjectId>
+    </schema>
+    <schema id="451" parent="1" name="U_I09ADX">
+      <ObjectId>536</ObjectId>
+    </schema>
+    <schema id="452" parent="1" name="U_CF7MAH">
+      <ObjectId>537</ObjectId>
+    </schema>
+    <schema id="453" parent="1" name="U_WNQ31W">
+      <ObjectId>538</ObjectId>
+    </schema>
+    <schema id="454" parent="1" name="U_LCQ5RO">
+      <ObjectId>539</ObjectId>
+    </schema>
+    <schema id="455" parent="1" name="U_RHE06S">
+      <ObjectId>540</ObjectId>
+    </schema>
+    <schema id="456" parent="1" name="U_W8EC5P">
+      <ObjectId>541</ObjectId>
+    </schema>
+    <schema id="457" parent="1" name="U_METZYM">
+      <ObjectId>542</ObjectId>
+    </schema>
+    <schema id="458" parent="1" name="U_YGJGB2">
+      <ObjectId>543</ObjectId>
+    </schema>
+    <schema id="459" parent="1" name="U_ELVNTZ">
+      <ObjectId>544</ObjectId>
+    </schema>
+    <schema id="460" parent="1" name="U_OAJ88K">
+      <ObjectId>545</ObjectId>
+    </schema>
+    <schema id="461" parent="1" name="U_AU4UFY">
+      <ObjectId>546</ObjectId>
+    </schema>
+    <schema id="462" parent="1" name="U_FD9I6X">
+      <ObjectId>547</ObjectId>
+    </schema>
+    <schema id="463" parent="1" name="U_GYKK9I">
+      <ObjectId>548</ObjectId>
+    </schema>
+    <schema id="464" parent="1" name="U_HKU0BS">
+      <ObjectId>549</ObjectId>
+    </schema>
+    <schema id="465" parent="1" name="U_AEGLK8">
+      <ObjectId>550</ObjectId>
+    </schema>
+    <schema id="466" parent="1" name="U_WM0QI2">
+      <ObjectId>551</ObjectId>
+    </schema>
+    <schema id="467" parent="1" name="U_KMC8CP">
+      <ObjectId>552</ObjectId>
+    </schema>
+    <schema id="468" parent="1" name="U_XE28C9">
+      <ObjectId>553</ObjectId>
+    </schema>
+    <schema id="469" parent="1" name="U_YZVKJZ">
+      <ObjectId>554</ObjectId>
+    </schema>
+    <schema id="470" parent="1" name="U_ZJAFU6">
+      <ObjectId>555</ObjectId>
+    </schema>
+    <schema id="471" parent="1" name="U_OHIN0O">
+      <ObjectId>556</ObjectId>
+    </schema>
+    <schema id="472" parent="1" name="U_DE741M">
+      <ObjectId>557</ObjectId>
+    </schema>
+    <schema id="473" parent="1" name="U_A1P6TB">
+      <ObjectId>558</ObjectId>
+    </schema>
+    <schema id="474" parent="1" name="U_FKRTGR">
+      <ObjectId>559</ObjectId>
+    </schema>
+    <schema id="475" parent="1" name="U_CMT5ZR">
+      <ObjectId>560</ObjectId>
+    </schema>
+    <schema id="476" parent="1" name="U_CVSWDX">
+      <ObjectId>561</ObjectId>
+    </schema>
+    <schema id="477" parent="1" name="U_ESBVYH">
+      <ObjectId>562</ObjectId>
+    </schema>
+    <schema id="478" parent="1" name="U_BXHF9T">
+      <ObjectId>563</ObjectId>
+    </schema>
+    <schema id="479" parent="1" name="U_MZHC44">
+      <ObjectId>564</ObjectId>
+    </schema>
+    <schema id="480" parent="1" name="U_VESJ0T">
+      <ObjectId>565</ObjectId>
+    </schema>
+    <schema id="481" parent="1" name="U_CKU4LY">
+      <ObjectId>566</ObjectId>
+    </schema>
+    <schema id="482" parent="1" name="U_JDLAKW">
+      <ObjectId>567</ObjectId>
+    </schema>
+    <schema id="483" parent="1" name="U_I4F8MZ">
+      <ObjectId>568</ObjectId>
+    </schema>
+    <schema id="484" parent="1" name="U_B03GYT">
+      <ObjectId>569</ObjectId>
+    </schema>
+    <schema id="485" parent="1" name="U_N9YW3U">
+      <ObjectId>570</ObjectId>
+    </schema>
+    <schema id="486" parent="1" name="U_WGCNQO">
+      <ObjectId>571</ObjectId>
+    </schema>
+    <schema id="487" parent="1" name="U_BDBCIU">
+      <ObjectId>572</ObjectId>
+    </schema>
+    <schema id="488" parent="1" name="U_FXFKGM">
+      <ObjectId>573</ObjectId>
+    </schema>
+    <schema id="489" parent="1" name="U_KV8HWF">
+      <ObjectId>574</ObjectId>
+    </schema>
+    <schema id="490" parent="1" name="U_A7D67E">
+      <ObjectId>575</ObjectId>
+    </schema>
+    <schema id="491" parent="1" name="U_JIAOOP">
+      <ObjectId>576</ObjectId>
+    </schema>
+    <schema id="492" parent="1" name="U_BGN477">
+      <ObjectId>577</ObjectId>
+    </schema>
+    <schema id="493" parent="1" name="U_ILUC2Q">
+      <ObjectId>578</ObjectId>
+    </schema>
+    <schema id="494" parent="1" name="U_BHIFGE">
+      <ObjectId>579</ObjectId>
+    </schema>
+    <schema id="495" parent="1" name="U_RAKOA7">
+      <ObjectId>580</ObjectId>
+    </schema>
+    <schema id="496" parent="1" name="U_U9Y3WW">
+      <ObjectId>581</ObjectId>
+    </schema>
+    <schema id="497" parent="1" name="U_C9LBFY">
+      <ObjectId>582</ObjectId>
+    </schema>
+    <schema id="498" parent="1" name="U_IUNL6L">
+      <ObjectId>583</ObjectId>
+    </schema>
+    <schema id="499" parent="1" name="U_EZJUHK">
+      <ObjectId>584</ObjectId>
+    </schema>
+    <schema id="500" parent="1" name="U_KHPZMG">
+      <ObjectId>585</ObjectId>
+    </schema>
+    <schema id="501" parent="1" name="U_HG07S6">
+      <ObjectId>586</ObjectId>
+    </schema>
+    <schema id="502" parent="1" name="U_XSS3HR">
+      <ObjectId>587</ObjectId>
+    </schema>
+    <schema id="503" parent="1" name="U_YPC50X">
+      <ObjectId>589</ObjectId>
+    </schema>
+    <schema id="504" parent="1" name="U_O04M27">
+      <ObjectId>590</ObjectId>
+    </schema>
+    <schema id="505" parent="1" name="U_JMT3OJ">
+      <ObjectId>591</ObjectId>
+    </schema>
+    <schema id="506" parent="1" name="U_OID4DR">
+      <ObjectId>592</ObjectId>
+    </schema>
+    <schema id="507" parent="1" name="U_GTIWSQ">
+      <ObjectId>593</ObjectId>
+    </schema>
+    <schema id="508" parent="1" name="U_D789EK">
+      <ObjectId>594</ObjectId>
+    </schema>
+    <schema id="509" parent="1" name="U_PNPWSM">
+      <ObjectId>595</ObjectId>
+    </schema>
+    <schema id="510" parent="1" name="U_KSQ39F">
+      <ObjectId>596</ObjectId>
+    </schema>
+    <schema id="511" parent="1" name="U_Z7D2YH">
+      <ObjectId>597</ObjectId>
+    </schema>
+    <schema id="512" parent="1" name="U_LU9NI4">
+      <ObjectId>598</ObjectId>
+    </schema>
+    <schema id="513" parent="1" name="U_YEEKTJ">
+      <ObjectId>599</ObjectId>
+    </schema>
+    <schema id="514" parent="1" name="U_OJWPYM">
+      <ObjectId>600</ObjectId>
+    </schema>
+    <schema id="515" parent="1" name="U_W1WC6X">
+      <ObjectId>601</ObjectId>
+    </schema>
+    <schema id="516" parent="1" name="U_AFNZBF">
+      <ObjectId>602</ObjectId>
+    </schema>
+    <schema id="517" parent="1" name="U_D9LNEE">
+      <ObjectId>603</ObjectId>
+    </schema>
+    <schema id="518" parent="1" name="U_XPFCCD">
+      <ObjectId>604</ObjectId>
+    </schema>
+    <schema id="519" parent="1" name="U_A43B31">
+      <ObjectId>605</ObjectId>
+    </schema>
+    <schema id="520" parent="1" name="U_HUSE0K">
+      <ObjectId>606</ObjectId>
+    </schema>
+    <schema id="521" parent="1" name="U_OTQS3U">
+      <ObjectId>607</ObjectId>
+    </schema>
+    <schema id="522" parent="1" name="U_FVAU4X">
+      <ObjectId>608</ObjectId>
+    </schema>
+    <schema id="523" parent="1" name="U_WQ9QUC">
+      <ObjectId>609</ObjectId>
+    </schema>
+    <schema id="524" parent="1" name="U_BZWOPF">
+      <ObjectId>610</ObjectId>
+    </schema>
+    <schema id="525" parent="1" name="U_C0MUKJ">
+      <ObjectId>611</ObjectId>
+    </schema>
+    <schema id="526" parent="1" name="U_RZ854B">
+      <ObjectId>612</ObjectId>
+    </schema>
+    <schema id="527" parent="1" name="U_SQ6IBC">
+      <ObjectId>613</ObjectId>
+    </schema>
+    <schema id="528" parent="1" name="U_I0BM8W">
+      <ObjectId>614</ObjectId>
+    </schema>
+    <schema id="529" parent="1" name="U_HF6C69">
+      <ObjectId>615</ObjectId>
+    </schema>
+    <schema id="530" parent="1" name="U_ELBA4F">
+      <ObjectId>616</ObjectId>
+    </schema>
+    <schema id="531" parent="1" name="U_TL31BU">
+      <ObjectId>617</ObjectId>
+    </schema>
+    <schema id="532" parent="1" name="U_BOXM06">
+      <ObjectId>618</ObjectId>
+    </schema>
+    <schema id="533" parent="1" name="U_HQ8J8P">
+      <ObjectId>619</ObjectId>
+    </schema>
+    <schema id="534" parent="1" name="U_MCE8W8">
+      <ObjectId>620</ObjectId>
+    </schema>
+    <schema id="535" parent="1" name="U_GFZ5JS">
+      <ObjectId>621</ObjectId>
+    </schema>
+    <schema id="536" parent="1" name="U_X5XQRE">
+      <ObjectId>622</ObjectId>
+    </schema>
+    <schema id="537" parent="1" name="U_GB7WJL">
+      <ObjectId>623</ObjectId>
+    </schema>
+    <schema id="538" parent="1" name="U_D67EQD">
+      <ObjectId>624</ObjectId>
+    </schema>
+    <schema id="539" parent="1" name="U_K4TZZ1">
+      <ObjectId>625</ObjectId>
+    </schema>
+    <schema id="540" parent="1" name="U_E3YL78">
+      <ObjectId>626</ObjectId>
+    </schema>
+    <schema id="541" parent="1" name="U_GKFI19">
+      <ObjectId>627</ObjectId>
+    </schema>
+    <schema id="542" parent="1" name="U_BWXY64">
+      <ObjectId>628</ObjectId>
+    </schema>
+    <schema id="543" parent="1" name="U_TEF47B">
+      <ObjectId>629</ObjectId>
+    </schema>
+    <schema id="544" parent="1" name="U_NO6ZMU">
+      <ObjectId>630</ObjectId>
+    </schema>
+    <schema id="545" parent="1" name="U_I5GVIF">
+      <ObjectId>631</ObjectId>
+    </schema>
+    <schema id="546" parent="1" name="U_C2AYYL">
+      <ObjectId>632</ObjectId>
+    </schema>
+    <schema id="547" parent="1" name="U_IGOE12">
+      <ObjectId>633</ObjectId>
+    </schema>
+    <schema id="548" parent="1" name="U_PQAGKI">
+      <ObjectId>634</ObjectId>
+    </schema>
+    <schema id="549" parent="1" name="U_IIDIMX">
+      <ObjectId>635</ObjectId>
+    </schema>
+    <schema id="550" parent="1" name="U_IFXWVD">
+      <ObjectId>636</ObjectId>
+    </schema>
+    <schema id="551" parent="1" name="U_MD605L">
+      <ObjectId>637</ObjectId>
+    </schema>
+    <schema id="552" parent="1" name="U_Z14QX8">
+      <ObjectId>638</ObjectId>
+    </schema>
+    <schema id="553" parent="1" name="U_LBK4WE">
+      <ObjectId>639</ObjectId>
+    </schema>
+    <schema id="554" parent="1" name="U_U28X5G">
+      <ObjectId>640</ObjectId>
+    </schema>
+    <schema id="555" parent="1" name="U_T36ONY">
+      <ObjectId>641</ObjectId>
+    </schema>
+    <schema id="556" parent="1" name="U_ACKBN0">
+      <ObjectId>642</ObjectId>
+    </schema>
+    <schema id="557" parent="1" name="U_R88MAV">
+      <ObjectId>643</ObjectId>
+    </schema>
+    <schema id="558" parent="1" name="U_GVBQDW">
+      <ObjectId>644</ObjectId>
+    </schema>
+    <schema id="559" parent="1" name="U_F4KFQI">
+      <ObjectId>645</ObjectId>
+    </schema>
+    <schema id="560" parent="1" name="U_GNC7OJ">
+      <ObjectId>646</ObjectId>
+    </schema>
+    <schema id="561" parent="1" name="U_EA24GO">
+      <ObjectId>647</ObjectId>
+    </schema>
+    <schema id="562" parent="1" name="U_SNWAZG">
+      <ObjectId>648</ObjectId>
+    </schema>
+    <schema id="563" parent="1" name="U_TQHIS8">
+      <ObjectId>649</ObjectId>
+    </schema>
+    <schema id="564" parent="1" name="U_F7CEUI">
+      <ObjectId>650</ObjectId>
+    </schema>
+    <schema id="565" parent="1" name="U_G7W2NJ">
+      <ObjectId>651</ObjectId>
+    </schema>
+    <schema id="566" parent="1" name="U_B80ELA">
+      <ObjectId>652</ObjectId>
+    </schema>
+    <schema id="567" parent="1" name="U_AE56FF">
+      <ObjectId>653</ObjectId>
+    </schema>
+    <schema id="568" parent="1" name="U_C4Z233">
+      <ObjectId>654</ObjectId>
+    </schema>
+    <schema id="569" parent="1" name="U_AY451H">
+      <ObjectId>655</ObjectId>
+    </schema>
+    <schema id="570" parent="1" name="U_AFI7NR">
+      <ObjectId>656</ObjectId>
+    </schema>
+    <schema id="571" parent="1" name="U_TF67UY">
+      <ObjectId>657</ObjectId>
+    </schema>
+    <schema id="572" parent="1" name="U_OSY1W3">
+      <ObjectId>658</ObjectId>
+    </schema>
+    <schema id="573" parent="1" name="U_HPZ4OC">
+      <ObjectId>659</ObjectId>
+    </schema>
+    <schema id="574" parent="1" name="U_T0KYB2">
+      <ObjectId>660</ObjectId>
+    </schema>
+    <schema id="575" parent="1" name="U_DW0XP2">
+      <ObjectId>661</ObjectId>
+    </schema>
+    <schema id="576" parent="1" name="U_E7VZLA">
+      <ObjectId>662</ObjectId>
+    </schema>
+    <schema id="577" parent="1" name="U_O5P9XA">
+      <ObjectId>663</ObjectId>
+    </schema>
+    <schema id="578" parent="1" name="U_PWDBM8">
+      <ObjectId>664</ObjectId>
+    </schema>
+    <schema id="579" parent="1" name="U_AZDJ1L">
+      <ObjectId>665</ObjectId>
+    </schema>
+    <schema id="580" parent="1" name="U_WO8NSF">
+      <ObjectId>666</ObjectId>
+    </schema>
+    <schema id="581" parent="1" name="U_E5JCB7">
+      <ObjectId>667</ObjectId>
+    </schema>
+    <schema id="582" parent="1" name="U_W46D56">
+      <ObjectId>668</ObjectId>
+    </schema>
+    <schema id="583" parent="1" name="U_GO9LPP">
+      <ObjectId>669</ObjectId>
+    </schema>
+    <schema id="584" parent="1" name="U_F1A80B">
+      <ObjectId>670</ObjectId>
+    </schema>
+    <schema id="585" parent="1" name="U_BZ79WI">
+      <ObjectId>671</ObjectId>
+    </schema>
+    <schema id="586" parent="1" name="U_BVAOXD">
+      <ObjectId>672</ObjectId>
+    </schema>
+    <schema id="587" parent="1" name="U_AXK908">
+      <ObjectId>673</ObjectId>
+    </schema>
+    <schema id="588" parent="1" name="U_S2K273">
+      <ObjectId>674</ObjectId>
+    </schema>
+    <schema id="589" parent="1" name="U_E2DDBA">
+      <ObjectId>675</ObjectId>
+    </schema>
+    <schema id="590" parent="1" name="U_AQL7T4">
+      <ObjectId>676</ObjectId>
+    </schema>
+    <schema id="591" parent="1" name="U_SPUYNG">
+      <ObjectId>677</ObjectId>
+    </schema>
+    <schema id="592" parent="1" name="U_C21PHD">
+      <ObjectId>678</ObjectId>
+    </schema>
+    <schema id="593" parent="1" name="U_NR7QA4">
+      <ObjectId>679</ObjectId>
+    </schema>
+    <schema id="594" parent="1" name="U_ABMIF9">
+      <ObjectId>680</ObjectId>
+    </schema>
+    <schema id="595" parent="1" name="U_JGMBX1">
+      <ObjectId>681</ObjectId>
+    </schema>
+    <schema id="596" parent="1" name="U_OCU9G3">
+      <ObjectId>682</ObjectId>
+    </schema>
+    <schema id="597" parent="1" name="U_IKYJGP">
+      <ObjectId>683</ObjectId>
+    </schema>
+    <schema id="598" parent="1" name="U_EAE9NE">
+      <ObjectId>684</ObjectId>
+    </schema>
+    <schema id="599" parent="1" name="U_LZGF2V">
+      <ObjectId>685</ObjectId>
+    </schema>
+    <schema id="600" parent="1" name="U_KXOG45">
+      <ObjectId>686</ObjectId>
+    </schema>
+    <schema id="601" parent="1" name="U_ZV7HQW">
+      <ObjectId>687</ObjectId>
+    </schema>
+    <schema id="602" parent="1" name="U_XNA7AW">
+      <ObjectId>688</ObjectId>
+    </schema>
+    <schema id="603" parent="1" name="U_DFMXR6">
+      <ObjectId>689</ObjectId>
+    </schema>
+    <schema id="604" parent="1" name="U_E0IHVV">
+      <ObjectId>690</ObjectId>
+    </schema>
+    <schema id="605" parent="1" name="U_GTEJMD">
+      <ObjectId>691</ObjectId>
+    </schema>
+    <schema id="606" parent="1" name="U_DPT9AO">
+      <ObjectId>692</ObjectId>
+    </schema>
+    <schema id="607" parent="1" name="U_FJ4Q7W">
+      <ObjectId>693</ObjectId>
+    </schema>
+    <schema id="608" parent="1" name="U_GBD9CE">
+      <ObjectId>694</ObjectId>
+    </schema>
+    <schema id="609" parent="1" name="U_CUL20W">
+      <ObjectId>695</ObjectId>
+    </schema>
+    <schema id="610" parent="1" name="U_CYDFPM">
+      <ObjectId>696</ObjectId>
+    </schema>
+    <schema id="611" parent="1" name="U_FWZ0Q2">
+      <ObjectId>697</ObjectId>
+    </schema>
+    <schema id="612" parent="1" name="U_Y68Z2Y">
+      <ObjectId>698</ObjectId>
+    </schema>
+    <schema id="613" parent="1" name="U_PEF7QY">
+      <ObjectId>699</ObjectId>
+    </schema>
+    <schema id="614" parent="1" name="U_CUCNVC">
+      <ObjectId>700</ObjectId>
+    </schema>
+    <schema id="615" parent="1" name="U_YH8P2F">
+      <ObjectId>701</ObjectId>
+    </schema>
+    <schema id="616" parent="1" name="U_L876EC">
+      <ObjectId>702</ObjectId>
+    </schema>
+    <schema id="617" parent="1" name="U_EGIGNE">
+      <ObjectId>703</ObjectId>
+    </schema>
+    <schema id="618" parent="1" name="U_XFSUCN">
+      <ObjectId>704</ObjectId>
+    </schema>
+    <schema id="619" parent="1" name="U_GB335F">
+      <ObjectId>705</ObjectId>
+    </schema>
+    <schema id="620" parent="1" name="U_YSLQX1">
+      <ObjectId>706</ObjectId>
+    </schema>
+    <schema id="621" parent="1" name="U_QIDX2G">
+      <ObjectId>707</ObjectId>
+    </schema>
+    <schema id="622" parent="1" name="U_FV77O5">
+      <ObjectId>708</ObjectId>
+    </schema>
+    <schema id="623" parent="1" name="U_MBFSPQ">
+      <ObjectId>709</ObjectId>
+    </schema>
+    <schema id="624" parent="1" name="U_OXQR81">
+      <ObjectId>710</ObjectId>
+    </schema>
+    <schema id="625" parent="1" name="U_BBYT1P">
+      <ObjectId>711</ObjectId>
+    </schema>
+    <schema id="626" parent="1" name="U_OVY349">
+      <ObjectId>712</ObjectId>
+    </schema>
+    <schema id="627" parent="1" name="U_LSBMR1">
+      <ObjectId>713</ObjectId>
+    </schema>
+    <schema id="628" parent="1" name="U_CCQV9Q">
+      <ObjectId>714</ObjectId>
+    </schema>
+    <schema id="629" parent="1" name="U_EQXP5J">
+      <ObjectId>715</ObjectId>
+    </schema>
+    <schema id="630" parent="1" name="U_GGPG97">
+      <ObjectId>716</ObjectId>
+    </schema>
+    <schema id="631" parent="1" name="U_EAZ4I9">
+      <ObjectId>717</ObjectId>
+    </schema>
+    <schema id="632" parent="1" name="U_JOA978">
+      <ObjectId>718</ObjectId>
+    </schema>
+    <schema id="633" parent="1" name="U_DPPU6J">
+      <ObjectId>719</ObjectId>
+    </schema>
+    <schema id="634" parent="1" name="U_IYRS8T">
+      <ObjectId>720</ObjectId>
+    </schema>
+    <schema id="635" parent="1" name="U_UMEISY">
+      <ObjectId>721</ObjectId>
+    </schema>
+    <schema id="636" parent="1" name="U_C2UCMC">
+      <ObjectId>722</ObjectId>
+    </schema>
+    <schema id="637" parent="1" name="U_F8M677">
+      <ObjectId>723</ObjectId>
+    </schema>
+    <schema id="638" parent="1" name="U_LPLDI6">
+      <ObjectId>724</ObjectId>
+    </schema>
+    <schema id="639" parent="1" name="U_PQLC5V">
+      <ObjectId>725</ObjectId>
+    </schema>
+    <schema id="640" parent="1" name="U_DV4TTL">
+      <ObjectId>726</ObjectId>
+    </schema>
+    <schema id="641" parent="1" name="U_BIW3NC">
+      <ObjectId>727</ObjectId>
+    </schema>
+    <schema id="642" parent="1" name="U_BAMI1M">
+      <ObjectId>728</ObjectId>
+    </schema>
+    <schema id="643" parent="1" name="U_YYZKLM">
+      <ObjectId>729</ObjectId>
+    </schema>
+    <schema id="644" parent="1" name="U_Q49DQJ">
+      <ObjectId>730</ObjectId>
+    </schema>
+    <schema id="645" parent="1" name="U_G3Z0ZG">
+      <ObjectId>731</ObjectId>
+    </schema>
+    <schema id="646" parent="1" name="U_OXC5P3">
+      <ObjectId>732</ObjectId>
+    </schema>
+    <schema id="647" parent="1" name="U_LY60OZ">
+      <ObjectId>733</ObjectId>
+    </schema>
+    <schema id="648" parent="1" name="U_D6X3PO">
+      <ObjectId>734</ObjectId>
+    </schema>
+    <schema id="649" parent="1" name="U_HIJEAY">
+      <ObjectId>735</ObjectId>
+    </schema>
+    <schema id="650" parent="1" name="U_PJV5DO">
+      <ObjectId>736</ObjectId>
+    </schema>
+    <schema id="651" parent="1" name="U_N31CRA">
+      <ObjectId>737</ObjectId>
+    </schema>
+    <schema id="652" parent="1" name="U_A0EKQN">
+      <ObjectId>738</ObjectId>
+    </schema>
+    <schema id="653" parent="1" name="U_EIWHI3">
+      <ObjectId>739</ObjectId>
+    </schema>
+    <schema id="654" parent="1" name="U_MUVXPT">
+      <ObjectId>740</ObjectId>
+    </schema>
+    <schema id="655" parent="1" name="U_PGWI1L">
+      <ObjectId>741</ObjectId>
+    </schema>
+    <schema id="656" parent="1" name="U_ZR7BYE">
+      <ObjectId>742</ObjectId>
+    </schema>
+    <schema id="657" parent="1" name="U_PS6A0R">
+      <ObjectId>743</ObjectId>
+    </schema>
+    <schema id="658" parent="1" name="U_VDNP20">
+      <ObjectId>744</ObjectId>
+    </schema>
+    <schema id="659" parent="1" name="U_HOUJO9">
+      <ObjectId>745</ObjectId>
+    </schema>
+    <schema id="660" parent="1" name="U_JLHAIP">
+      <ObjectId>746</ObjectId>
+    </schema>
+    <schema id="661" parent="1" name="U_JH8OWP">
+      <ObjectId>747</ObjectId>
+    </schema>
+    <schema id="662" parent="1" name="U_D1YBQ7">
+      <ObjectId>748</ObjectId>
+    </schema>
+    <schema id="663" parent="1" name="U_TD3738">
+      <ObjectId>749</ObjectId>
+    </schema>
+    <schema id="664" parent="1" name="U_E9AMXL">
+      <ObjectId>750</ObjectId>
+    </schema>
+    <schema id="665" parent="1" name="U_MRN3X5">
+      <ObjectId>751</ObjectId>
+    </schema>
+    <schema id="666" parent="1" name="U_DAN8CX">
+      <ObjectId>752</ObjectId>
+    </schema>
+    <schema id="667" parent="1" name="U_YL8579">
+      <ObjectId>753</ObjectId>
+    </schema>
+    <schema id="668" parent="1" name="U_D331D5">
+      <ObjectId>754</ObjectId>
+    </schema>
+    <schema id="669" parent="1" name="U_V33WBI">
+      <ObjectId>755</ObjectId>
+    </schema>
+    <schema id="670" parent="1" name="U_BPQM4R">
+      <ObjectId>756</ObjectId>
+    </schema>
+    <schema id="671" parent="1" name="U_GXNZQO">
+      <ObjectId>757</ObjectId>
+    </schema>
+    <schema id="672" parent="1" name="U_UO7MX3">
+      <ObjectId>758</ObjectId>
+    </schema>
+    <schema id="673" parent="1" name="U_ZCKYKQ">
+      <ObjectId>759</ObjectId>
+    </schema>
+    <schema id="674" parent="1" name="U_IR92LG">
+      <ObjectId>760</ObjectId>
+    </schema>
+    <schema id="675" parent="1" name="U_Y345TN">
+      <ObjectId>761</ObjectId>
+    </schema>
+    <schema id="676" parent="1" name="U_B92KML">
+      <ObjectId>762</ObjectId>
+    </schema>
+    <schema id="677" parent="1" name="U_IJZ7PW">
+      <ObjectId>763</ObjectId>
+    </schema>
+    <schema id="678" parent="1" name="U_KQAASF">
+      <ObjectId>764</ObjectId>
+    </schema>
+    <schema id="679" parent="1" name="U_LYX93R">
+      <ObjectId>765</ObjectId>
+    </schema>
+    <schema id="680" parent="1" name="U_UJ6URR">
+      <ObjectId>766</ObjectId>
+    </schema>
+    <schema id="681" parent="1" name="U_TRBH2A">
+      <ObjectId>767</ObjectId>
+    </schema>
+    <schema id="682" parent="1" name="U_B8RNA6">
+      <ObjectId>768</ObjectId>
+    </schema>
+    <schema id="683" parent="1" name="U_RIWPKU">
+      <ObjectId>769</ObjectId>
+    </schema>
+    <schema id="684" parent="1" name="U_FSGR3Q">
+      <ObjectId>770</ObjectId>
+    </schema>
+    <schema id="685" parent="1" name="U_GIGO7X">
+      <ObjectId>771</ObjectId>
+    </schema>
+    <schema id="686" parent="1" name="U_EIGGAT">
+      <ObjectId>772</ObjectId>
+    </schema>
+    <schema id="687" parent="1" name="U_JBD9F2">
+      <ObjectId>773</ObjectId>
+    </schema>
+    <schema id="688" parent="1" name="U_YAWOCO">
+      <ObjectId>774</ObjectId>
+    </schema>
+    <schema id="689" parent="1" name="U_FB1MDP">
+      <ObjectId>775</ObjectId>
+    </schema>
+    <schema id="690" parent="1" name="U_Y7LWYA">
+      <ObjectId>776</ObjectId>
+    </schema>
+    <schema id="691" parent="1" name="U_DZGLCA">
+      <ObjectId>777</ObjectId>
+    </schema>
+    <schema id="692" parent="1" name="U_CHKOPW">
+      <ObjectId>778</ObjectId>
+    </schema>
+    <schema id="693" parent="1" name="U_EYDOIO">
+      <ObjectId>779</ObjectId>
+    </schema>
+    <schema id="694" parent="1" name="U_C4FU5G">
+      <ObjectId>780</ObjectId>
+    </schema>
+    <schema id="695" parent="1" name="U_JGIJOI">
+      <ObjectId>781</ObjectId>
+    </schema>
+    <schema id="696" parent="1" name="U_PA7ILB">
+      <ObjectId>782</ObjectId>
+    </schema>
+    <schema id="697" parent="1" name="U_RZMOHX">
+      <ObjectId>783</ObjectId>
+    </schema>
+    <schema id="698" parent="1" name="U_VW7SMF">
+      <ObjectId>784</ObjectId>
+    </schema>
+    <schema id="699" parent="1" name="U_S9ZVMY">
+      <ObjectId>785</ObjectId>
+    </schema>
+    <schema id="700" parent="1" name="U_XIYZ4D">
+      <ObjectId>786</ObjectId>
+    </schema>
+    <schema id="701" parent="1" name="U_KS3TKO">
+      <ObjectId>787</ObjectId>
+    </schema>
+    <schema id="702" parent="1" name="U_NXZ4GT">
+      <ObjectId>788</ObjectId>
+    </schema>
+    <schema id="703" parent="1" name="U_ERRMMK">
+      <ObjectId>789</ObjectId>
+    </schema>
+    <schema id="704" parent="1" name="U_HEMUI0">
+      <ObjectId>790</ObjectId>
+    </schema>
+    <schema id="705" parent="1" name="U_FJ8BY7">
+      <ObjectId>791</ObjectId>
+    </schema>
+    <schema id="706" parent="1" name="U_KIMC23">
+      <ObjectId>792</ObjectId>
+    </schema>
+    <schema id="707" parent="1" name="U_ILIRT4">
+      <ObjectId>793</ObjectId>
+    </schema>
+    <schema id="708" parent="1" name="U_ZEJ1KV">
+      <ObjectId>794</ObjectId>
+    </schema>
+    <schema id="709" parent="1" name="U_LWIN2A">
+      <ObjectId>795</ObjectId>
+    </schema>
+    <schema id="710" parent="1" name="U_V4DRYU">
+      <ObjectId>796</ObjectId>
+    </schema>
+    <schema id="711" parent="1" name="U_ATY53Z">
+      <ObjectId>797</ObjectId>
+    </schema>
+    <schema id="712" parent="1" name="U_QM12NC">
+      <ObjectId>798</ObjectId>
+    </schema>
+    <schema id="713" parent="1" name="U_WVK1I9">
+      <ObjectId>799</ObjectId>
+    </schema>
+    <schema id="714" parent="1" name="U_B6Y4LC">
+      <ObjectId>800</ObjectId>
+    </schema>
+    <schema id="715" parent="1" name="U_CO4S4E">
+      <ObjectId>801</ObjectId>
+    </schema>
+    <schema id="716" parent="1" name="U_XUU8LV">
+      <ObjectId>802</ObjectId>
+    </schema>
+    <schema id="717" parent="1" name="U_DG5ZNV">
+      <ObjectId>803</ObjectId>
+    </schema>
+    <schema id="718" parent="1" name="U_FRLRLL">
+      <ObjectId>804</ObjectId>
+    </schema>
+    <schema id="719" parent="1" name="U_CPTLP2">
+      <ObjectId>805</ObjectId>
+    </schema>
+    <schema id="720" parent="1" name="U_T81K4E">
+      <ObjectId>806</ObjectId>
+    </schema>
+    <schema id="721" parent="1" name="U_EJ2VQQ">
+      <ObjectId>807</ObjectId>
+    </schema>
+    <schema id="722" parent="1" name="U_VLPGH5">
+      <ObjectId>808</ObjectId>
+    </schema>
+    <schema id="723" parent="1" name="U_P7SYJS">
+      <ObjectId>809</ObjectId>
+    </schema>
+    <schema id="724" parent="1" name="U_ZYOSIV">
+      <ObjectId>810</ObjectId>
+    </schema>
+    <schema id="725" parent="1" name="U_DCDKY5">
+      <ObjectId>811</ObjectId>
+    </schema>
+    <schema id="726" parent="1" name="U_ZPJ9GJ">
+      <ObjectId>812</ObjectId>
+    </schema>
+    <schema id="727" parent="1" name="U_MFG7AJ">
+      <ObjectId>813</ObjectId>
+    </schema>
+    <schema id="728" parent="1" name="U_ID2VEF">
+      <ObjectId>814</ObjectId>
+    </schema>
+    <schema id="729" parent="1" name="U_MYTAAD">
+      <ObjectId>815</ObjectId>
+    </schema>
+    <schema id="730" parent="1" name="U_MMUECI">
+      <ObjectId>816</ObjectId>
+    </schema>
+    <schema id="731" parent="1" name="U_UQ5MS9">
+      <ObjectId>817</ObjectId>
+    </schema>
+    <schema id="732" parent="1" name="U_JI4SEU">
+      <ObjectId>818</ObjectId>
+    </schema>
+    <schema id="733" parent="1" name="U_UVM1WL">
+      <ObjectId>819</ObjectId>
+    </schema>
+    <schema id="734" parent="1" name="U_JCWE8X">
+      <ObjectId>820</ObjectId>
+    </schema>
+    <schema id="735" parent="1" name="U_BE63EF">
+      <ObjectId>821</ObjectId>
+    </schema>
+    <schema id="736" parent="1" name="U_HNX3W5">
+      <ObjectId>822</ObjectId>
+    </schema>
+    <schema id="737" parent="1" name="U_ABGWNS">
+      <ObjectId>823</ObjectId>
+    </schema>
+    <schema id="738" parent="1" name="U_VKUJTC">
+      <ObjectId>824</ObjectId>
+    </schema>
+    <schema id="739" parent="1" name="U_UMYJML">
+      <ObjectId>825</ObjectId>
+    </schema>
+    <schema id="740" parent="1" name="U_BWYSRA">
+      <ObjectId>826</ObjectId>
+    </schema>
+    <schema id="741" parent="1" name="U_YNXJVC">
+      <ObjectId>827</ObjectId>
+    </schema>
+    <schema id="742" parent="1" name="U_CBZ7Y8">
+      <ObjectId>828</ObjectId>
+    </schema>
+    <schema id="743" parent="1" name="U_CT6H8N">
+      <ObjectId>829</ObjectId>
+    </schema>
+    <schema id="744" parent="1" name="U_BXPJY9">
+      <ObjectId>830</ObjectId>
+    </schema>
+    <schema id="745" parent="1" name="U_CQB8ML">
+      <ObjectId>831</ObjectId>
+    </schema>
+    <schema id="746" parent="1" name="U_EOB8N7">
+      <ObjectId>832</ObjectId>
+    </schema>
+    <schema id="747" parent="1" name="U_FV10EB">
+      <ObjectId>833</ObjectId>
+    </schema>
+    <schema id="748" parent="1" name="U_YORV4T">
+      <ObjectId>834</ObjectId>
+    </schema>
+    <schema id="749" parent="1" name="U_FP0WCC">
+      <ObjectId>835</ObjectId>
+    </schema>
+    <schema id="750" parent="1" name="U_FU4SNU">
+      <ObjectId>836</ObjectId>
+    </schema>
+    <schema id="751" parent="1" name="U_EYIH4G">
+      <ObjectId>837</ObjectId>
+    </schema>
+    <schema id="752" parent="1" name="U_ATX6ZU">
+      <ObjectId>838</ObjectId>
+    </schema>
+    <schema id="753" parent="1" name="U_FOG489">
+      <ObjectId>839</ObjectId>
+    </schema>
+    <schema id="754" parent="1" name="U_EYX59J">
+      <ObjectId>840</ObjectId>
+    </schema>
+    <schema id="755" parent="1" name="U_IB893A">
+      <ObjectId>841</ObjectId>
+    </schema>
+    <schema id="756" parent="1" name="U_AIH6Q5">
+      <ObjectId>842</ObjectId>
+    </schema>
+    <schema id="757" parent="1" name="U_DOLQ61">
+      <ObjectId>843</ObjectId>
+    </schema>
+    <schema id="758" parent="1" name="U_SGNQ9P">
+      <ObjectId>844</ObjectId>
+    </schema>
+    <schema id="759" parent="1" name="U_CQKVTT">
+      <ObjectId>845</ObjectId>
+    </schema>
+    <schema id="760" parent="1" name="U_DFF258">
+      <ObjectId>846</ObjectId>
+    </schema>
+    <schema id="761" parent="1" name="U_XPE4JQ">
+      <ObjectId>847</ObjectId>
+    </schema>
+    <schema id="762" parent="1" name="U_KFHXCR">
+      <ObjectId>848</ObjectId>
+    </schema>
+    <schema id="763" parent="1" name="U_QRFX19">
+      <ObjectId>849</ObjectId>
+    </schema>
+    <schema id="764" parent="1" name="U_O4JYV7">
+      <ObjectId>850</ObjectId>
+    </schema>
+    <schema id="765" parent="1" name="U_CP9UXK">
+      <ObjectId>851</ObjectId>
+    </schema>
+    <schema id="766" parent="1" name="U_BWV709">
+      <ObjectId>852</ObjectId>
+    </schema>
+    <schema id="767" parent="1" name="U_CGU79N">
+      <ObjectId>853</ObjectId>
+    </schema>
+    <schema id="768" parent="1" name="U_KPZ8AO">
+      <ObjectId>854</ObjectId>
+    </schema>
+    <schema id="769" parent="1" name="U_JV49QV">
+      <ObjectId>855</ObjectId>
+    </schema>
+    <schema id="770" parent="1" name="U_M99DYU">
+      <ObjectId>856</ObjectId>
+    </schema>
+    <schema id="771" parent="1" name="U_EFPQ4Y">
+      <ObjectId>857</ObjectId>
+    </schema>
+    <schema id="772" parent="1" name="U_GTH0JK">
+      <ObjectId>858</ObjectId>
+    </schema>
+    <schema id="773" parent="1" name="ROSKO">
+      <ObjectId>859</ObjectId>
+    </schema>
+    <schema id="774" parent="1" name="TOTHR">
+      <ObjectId>860</ObjectId>
+    </schema>
+    <schema id="775" parent="1" name="NAGYDAVID">
+      <ObjectId>861</ObjectId>
+    </schema>
+    <schema id="776" parent="1" name="TOTHJANOS">
+      <ObjectId>862</ObjectId>
+    </schema>
+    <schema id="777" parent="1" name="U_F7B7SK">
+      <ObjectId>863</ObjectId>
+    </schema>
+    <schema id="778" parent="1" name="U_L6G0VE">
+      <ObjectId>864</ObjectId>
+    </schema>
+    <schema id="779" parent="1" name="U_ICOE4P">
+      <ObjectId>865</ObjectId>
+    </schema>
+    <schema id="780" parent="1" name="U_IDX0JS">
+      <ObjectId>866</ObjectId>
+    </schema>
+    <schema id="781" parent="1" name="U_P6FC7Z">
+      <ObjectId>867</ObjectId>
+    </schema>
+    <schema id="782" parent="1" name="U_C097A5">
+      <ObjectId>868</ObjectId>
+    </schema>
+    <schema id="783" parent="1" name="U_CMTLJF">
+      <ObjectId>869</ObjectId>
+    </schema>
+    <schema id="784" parent="1" name="U_U4BLSA">
+      <ObjectId>870</ObjectId>
+    </schema>
+    <schema id="785" parent="1" name="U_ZNW7QJ">
+      <ObjectId>871</ObjectId>
+    </schema>
+    <schema id="786" parent="1" name="U_H9VZYQ">
+      <ObjectId>872</ObjectId>
+    </schema>
+    <schema id="787" parent="1" name="U_CRGU6V">
+      <ObjectId>873</ObjectId>
+    </schema>
+    <schema id="788" parent="1" name="U_FU3816">
+      <ObjectId>874</ObjectId>
+    </schema>
+    <schema id="789" parent="1" name="U_SI7VIZ">
+      <ObjectId>875</ObjectId>
+    </schema>
+    <schema id="790" parent="1" name="U_G9UNWK">
+      <ObjectId>876</ObjectId>
+    </schema>
+    <schema id="791" parent="1" name="U_GA0S8P">
+      <ObjectId>877</ObjectId>
+    </schema>
+    <schema id="792" parent="1" name="U_U8FRXI">
+      <ObjectId>878</ObjectId>
+    </schema>
+    <schema id="793" parent="1" name="U_EA25NT">
+      <ObjectId>879</ObjectId>
+    </schema>
+    <schema id="794" parent="1" name="U_E46ZHP">
+      <ObjectId>880</ObjectId>
+    </schema>
+    <schema id="795" parent="1" name="U_KRUIHM">
+      <ObjectId>881</ObjectId>
+    </schema>
+    <schema id="796" parent="1" name="U_AE2H6N">
+      <ObjectId>882</ObjectId>
+    </schema>
+    <schema id="797" parent="1" name="TOTHROBI">
+      <ObjectId>883</ObjectId>
+    </schema>
+    <schema id="798" parent="1" name="U_VOUZZ0">
+      <ObjectId>884</ObjectId>
+    </schema>
+    <schema id="799" parent="1" name="BIROPIROSKA">
+      <ObjectId>885</ObjectId>
+    </schema>
+    <schema id="800" parent="1" name="UX_PORTUGAL1">
+      <ObjectId>886</ObjectId>
+    </schema>
+    <schema id="801" parent="1" name="UX_PORTUGAL2">
+      <ObjectId>887</ObjectId>
+    </schema>
+    <schema id="802" parent="1" name="UX_PORTUGAL3">
+      <ObjectId>888</ObjectId>
+    </schema>
+    <schema id="803" parent="1" name="UX_PORTUGAL4">
+      <ObjectId>889</ObjectId>
+    </schema>
+    <schema id="804" parent="1" name="UX_PORTUGAL5">
+      <ObjectId>890</ObjectId>
+    </schema>
+    <schema id="805" parent="1" name="UX_PORTUGAL6">
+      <ObjectId>891</ObjectId>
+    </schema>
+    <schema id="806" parent="1" name="U_MNCLMV">
+      <ObjectId>892</ObjectId>
+    </schema>
+    <schema id="807" parent="1" name="U_G5BXDY">
+      <ObjectId>893</ObjectId>
+    </schema>
+    <schema id="808" parent="1" name="U_DN1JIL">
+      <ObjectId>894</ObjectId>
+    </schema>
+    <schema id="809" parent="1" name="U_C4NVNX">
+      <ObjectId>895</ObjectId>
+    </schema>
+    <schema id="810" parent="1" name="U_A1CHFT">
+      <ObjectId>896</ObjectId>
+    </schema>
+    <schema id="811" parent="1" name="U_DI9AKU">
+      <ObjectId>897</ObjectId>
+    </schema>
+    <schema id="812" parent="1" name="U_QBFWCD">
+      <ObjectId>898</ObjectId>
+    </schema>
+    <schema id="813" parent="1" name="U_Y243GL">
+      <ObjectId>899</ObjectId>
+    </schema>
+    <schema id="814" parent="1" name="U_B1B6P7">
+      <ObjectId>900</ObjectId>
+    </schema>
+    <schema id="815" parent="1" name="U_Q4FFYW">
+      <ObjectId>901</ObjectId>
+    </schema>
+    <schema id="816" parent="1" name="U_IWYD4T">
+      <ObjectId>902</ObjectId>
+    </schema>
+    <schema id="817" parent="1" name="U_HCIKP7">
+      <ObjectId>903</ObjectId>
+    </schema>
+    <schema id="818" parent="1" name="U_SXZPQ0">
+      <ObjectId>904</ObjectId>
+    </schema>
+    <schema id="819" parent="1" name="U_L46LPX">
+      <ObjectId>905</ObjectId>
+    </schema>
+    <schema id="820" parent="1" name="U_UXHRX7">
+      <ObjectId>906</ObjectId>
+    </schema>
+    <schema id="821" parent="1" name="U_FAL9LP">
+      <ObjectId>907</ObjectId>
+    </schema>
+    <schema id="822" parent="1" name="U_Q4V3RZ">
+      <ObjectId>908</ObjectId>
+    </schema>
+    <schema id="823" parent="1" name="U_R0Q95N">
+      <ObjectId>909</ObjectId>
+    </schema>
+    <schema id="824" parent="1" name="U_HVK154">
+      <ObjectId>910</ObjectId>
+    </schema>
+    <schema id="825" parent="1" name="U_ERLXNF">
+      <ObjectId>911</ObjectId>
+    </schema>
+    <schema id="826" parent="1" name="U_S0HY4E">
+      <ObjectId>912</ObjectId>
+    </schema>
+    <schema id="827" parent="1" name="U_DA5Z6W">
+      <ObjectId>913</ObjectId>
+    </schema>
+    <schema id="828" parent="1" name="U_IWSLTS">
+      <ObjectId>914</ObjectId>
+    </schema>
+    <schema id="829" parent="1" name="U_AQUB1W">
+      <ObjectId>915</ObjectId>
+    </schema>
+    <schema id="830" parent="1" name="U_SPAIMG">
+      <ObjectId>916</ObjectId>
+    </schema>
+    <schema id="831" parent="1" name="U_T721GG">
+      <ObjectId>917</ObjectId>
+    </schema>
+    <schema id="832" parent="1" name="U_XFTXYM">
+      <ObjectId>918</ObjectId>
+    </schema>
+    <schema id="833" parent="1" name="U_X32S6O">
+      <ObjectId>919</ObjectId>
+    </schema>
+    <schema id="834" parent="1" name="U_G719WB">
+      <ObjectId>920</ObjectId>
+    </schema>
+    <schema id="835" parent="1" name="U_RJDXPI">
+      <ObjectId>921</ObjectId>
+    </schema>
+    <schema id="836" parent="1" name="U_X9WVIQ">
+      <ObjectId>922</ObjectId>
+    </schema>
+    <schema id="837" parent="1" name="U_CMY9W3">
+      <ObjectId>923</ObjectId>
+    </schema>
+    <schema id="838" parent="1" name="U_OJCVMB">
+      <ObjectId>924</ObjectId>
+    </schema>
+    <schema id="839" parent="1" name="U_BSQFEF">
+      <ObjectId>925</ObjectId>
+    </schema>
+    <schema id="840" parent="1" name="U_LX7X06">
+      <ObjectId>926</ObjectId>
+    </schema>
+    <schema id="841" parent="1" name="U_DHGG52">
+      <ObjectId>927</ObjectId>
+    </schema>
+    <schema id="842" parent="1" name="U_ZEBJRF">
+      <ObjectId>928</ObjectId>
+    </schema>
+    <schema id="843" parent="1" name="U_AUIIJ3">
+      <ObjectId>929</ObjectId>
+    </schema>
+    <schema id="844" parent="1" name="U_OCJ7S7">
+      <ObjectId>930</ObjectId>
+    </schema>
+    <schema id="845" parent="1" name="U_YWW53G">
+      <ObjectId>931</ObjectId>
+    </schema>
+    <schema id="846" parent="1" name="U_U2LROO">
+      <ObjectId>932</ObjectId>
+    </schema>
+    <schema id="847" parent="1" name="U_D1U2WX">
+      <ObjectId>933</ObjectId>
+    </schema>
+    <schema id="848" parent="1" name="U_H5JQ4T">
+      <ObjectId>934</ObjectId>
+    </schema>
+    <schema id="849" parent="1" name="U_DH15MK">
+      <ObjectId>935</ObjectId>
+    </schema>
+    <schema id="850" parent="1" name="U_GA347O">
+      <ObjectId>936</ObjectId>
+    </schema>
+    <schema id="851" parent="1" name="U_ABW4BR">
+      <ObjectId>937</ObjectId>
+    </schema>
+    <schema id="852" parent="1" name="U_ETNZOR">
+      <ObjectId>938</ObjectId>
+    </schema>
+    <schema id="853" parent="1" name="U_I4Q25L">
+      <ObjectId>939</ObjectId>
+    </schema>
+    <schema id="854" parent="1" name="U_VBU72X">
+      <ObjectId>940</ObjectId>
+    </schema>
+    <schema id="855" parent="1" name="U_LZ7QUJ">
+      <ObjectId>941</ObjectId>
+    </schema>
+    <schema id="856" parent="1" name="U_WKO87S">
+      <ObjectId>942</ObjectId>
+    </schema>
+    <schema id="857" parent="1" name="U_K6QAOJ">
+      <ObjectId>943</ObjectId>
+    </schema>
+    <schema id="858" parent="1" name="U_C5MQYF">
+      <ObjectId>944</ObjectId>
+    </schema>
+    <schema id="859" parent="1" name="U_CXHV8M">
+      <ObjectId>945</ObjectId>
+    </schema>
+    <schema id="860" parent="1" name="U_GM91TW">
+      <ObjectId>946</ObjectId>
+    </schema>
+    <schema id="861" parent="1" name="U_GW827N">
+      <ObjectId>947</ObjectId>
+    </schema>
+    <schema id="862" parent="1" name="U_NO9JPK">
+      <ObjectId>948</ObjectId>
+    </schema>
+    <schema id="863" parent="1" name="U_Y33ESG">
+      <ObjectId>949</ObjectId>
+    </schema>
+    <schema id="864" parent="1" name="U_IHUAMT">
+      <ObjectId>950</ObjectId>
+    </schema>
+    <schema id="865" parent="1" name="U_MCADFH">
+      <ObjectId>951</ObjectId>
+    </schema>
+    <schema id="866" parent="1" name="U_K11Z8B">
+      <ObjectId>952</ObjectId>
+    </schema>
+    <schema id="867" parent="1" name="U_GG5VC1">
+      <ObjectId>953</ObjectId>
+    </schema>
+    <schema id="868" parent="1" name="U_ZLJOX0">
+      <ObjectId>954</ObjectId>
+    </schema>
+    <schema id="869" parent="1" name="U_OX6XNL">
+      <ObjectId>955</ObjectId>
+    </schema>
+    <schema id="870" parent="1" name="U_IQCU5G">
+      <ObjectId>956</ObjectId>
+    </schema>
+    <schema id="871" parent="1" name="U_E7HNL6">
+      <ObjectId>957</ObjectId>
+    </schema>
+    <schema id="872" parent="1" name="U_YG4VSL">
+      <ObjectId>958</ObjectId>
+    </schema>
+    <schema id="873" parent="1" name="U_NHZ48O">
+      <ObjectId>959</ObjectId>
+    </schema>
+    <schema id="874" parent="1" name="U_BIJAJ7">
+      <ObjectId>960</ObjectId>
+    </schema>
+    <schema id="875" parent="1" name="U_G9XJLC">
+      <ObjectId>961</ObjectId>
+    </schema>
+    <schema id="876" parent="1" name="U_PMO89R">
+      <ObjectId>962</ObjectId>
+    </schema>
+    <schema id="877" parent="1" name="U_IJFGE2">
+      <ObjectId>963</ObjectId>
+    </schema>
+    <schema id="878" parent="1" name="U_OA3STF">
+      <ObjectId>964</ObjectId>
+    </schema>
+    <schema id="879" parent="1" name="U_A693AS">
+      <ObjectId>965</ObjectId>
+    </schema>
+    <schema id="880" parent="1" name="U_GAL7RQ">
+      <ObjectId>966</ObjectId>
+    </schema>
+    <schema id="881" parent="1" name="U_AM86MV">
+      <ObjectId>967</ObjectId>
+    </schema>
+    <schema id="882" parent="1" name="U_ZVHU97">
+      <ObjectId>968</ObjectId>
+    </schema>
+    <schema id="883" parent="1" name="U_ROPLPN">
+      <ObjectId>969</ObjectId>
+    </schema>
+    <schema id="884" parent="1" name="U_QLBVZH">
+      <ObjectId>970</ObjectId>
+    </schema>
+    <schema id="885" parent="1" name="U_EM2MUV">
+      <ObjectId>971</ObjectId>
+    </schema>
+    <schema id="886" parent="1" name="U_HL7FTW">
+      <ObjectId>972</ObjectId>
+    </schema>
+    <schema id="887" parent="1" name="U_V2TTR5">
+      <ObjectId>973</ObjectId>
+    </schema>
+    <schema id="888" parent="1" name="U_ULJS8G">
+      <ObjectId>974</ObjectId>
+    </schema>
+    <schema id="889" parent="1" name="U_MODGJ3">
+      <ObjectId>975</ObjectId>
+    </schema>
+    <schema id="890" parent="1" name="U_YJU4SX">
+      <ObjectId>976</ObjectId>
+    </schema>
+    <schema id="891" parent="1" name="U_E6XT0U">
+      <ObjectId>977</ObjectId>
+    </schema>
+    <schema id="892" parent="1" name="HDBMS18">
+      <ObjectId>978</ObjectId>
+    </schema>
+    <schema id="893" parent="1" name="ADBMS18">
+      <ObjectId>979</ObjectId>
+    </schema>
+    <schema id="894" parent="1" name="U_JWSFDI">
+      <ObjectId>980</ObjectId>
+    </schema>
+    <schema id="895" parent="1" name="ZOO">
+      <ObjectId>981</ObjectId>
+    </schema>
+    <schema id="896" parent="1" name="U_CIYO63">
+      <ObjectId>982</ObjectId>
+    </schema>
+    <schema id="897" parent="1" name="U_BYJ5WX">
+      <ObjectId>983</ObjectId>
+    </schema>
+    <schema id="898" parent="1" name="U_T8MTDY">
+      <ObjectId>984</ObjectId>
+    </schema>
+    <schema id="899" parent="1" name="U_NGK9OS">
+      <ObjectId>985</ObjectId>
+    </schema>
+    <schema id="900" parent="1" name="U_JAWLMH">
+      <ObjectId>986</ObjectId>
+    </schema>
+    <schema id="901" parent="1" name="U_JC1VW4">
+      <ObjectId>987</ObjectId>
+    </schema>
+    <schema id="902" parent="1" name="U_I12KNI">
+      <ObjectId>988</ObjectId>
+    </schema>
+    <schema id="903" parent="1" name="U_VILXTH">
+      <ObjectId>989</ObjectId>
+    </schema>
+    <schema id="904" parent="1" name="U_HLV7E9">
+      <ObjectId>990</ObjectId>
+    </schema>
+    <schema id="905" parent="1" name="UO_FGAKH1">
+      <ObjectId>991</ObjectId>
+    </schema>
+    <schema id="906" parent="1" name="UO_JH666G">
+      <ObjectId>992</ObjectId>
+    </schema>
+    <schema id="907" parent="1" name="UO_I75K9F">
+      <ObjectId>993</ObjectId>
+    </schema>
+    <schema id="908" parent="1" name="UO_YDGR39">
+      <ObjectId>994</ObjectId>
+    </schema>
+    <schema id="909" parent="1" name="UO_JDH0CK">
+      <ObjectId>995</ObjectId>
+    </schema>
+    <schema id="910" parent="1" name="UO_CN76YS">
+      <ObjectId>996</ObjectId>
+    </schema>
+    <schema id="911" parent="1" name="UO_GAQADF">
+      <ObjectId>997</ObjectId>
+    </schema>
+    <schema id="912" parent="1" name="UO_YK72TE">
+      <ObjectId>998</ObjectId>
+    </schema>
+    <schema id="913" parent="1" name="UO_WJEC9K">
+      <ObjectId>999</ObjectId>
+    </schema>
+    <schema id="914" parent="1" name="UO_VC1UHP">
+      <ObjectId>1000</ObjectId>
+    </schema>
+    <schema id="915" parent="1" name="UO_DJTAVU">
+      <ObjectId>1001</ObjectId>
+    </schema>
+    <schema id="916" parent="1" name="U_BZ5SW5">
+      <ObjectId>1002</ObjectId>
+    </schema>
+    <schema id="917" parent="1" name="U_EFW173">
+      <ObjectId>1003</ObjectId>
+    </schema>
+    <schema id="918" parent="1" name="U_G1VIEN">
+      <ObjectId>1004</ObjectId>
+    </schema>
+    <schema id="919" parent="1" name="U_HE6UBK">
+      <ObjectId>1005</ObjectId>
+    </schema>
+    <schema id="920" parent="1" name="U_IBBP4D">
+      <ObjectId>1006</ObjectId>
+    </schema>
+    <schema id="921" parent="1" name="U_IG98XY">
+      <ObjectId>1007</ObjectId>
+    </schema>
+    <schema id="922" parent="1" name="U_JHJH8M">
+      <ObjectId>1008</ObjectId>
+    </schema>
+    <schema id="923" parent="1" name="U_RWUKX3">
+      <ObjectId>1009</ObjectId>
+    </schema>
+    <schema id="924" parent="1" name="U_TETTFN">
+      <ObjectId>1010</ObjectId>
+    </schema>
+    <schema id="925" parent="1" name="U_PFDGCL">
+      <ObjectId>1011</ObjectId>
+    </schema>
+    <schema id="926" parent="1" name="U_HXO1S6">
+      <ObjectId>1012</ObjectId>
+    </schema>
+    <schema id="927" parent="1" name="U_JQSQ60">
+      <ObjectId>1013</ObjectId>
+    </schema>
+    <schema id="928" parent="1" name="U_OXE16J">
+      <ObjectId>1014</ObjectId>
+    </schema>
+    <schema id="929" parent="1" name="U_ITLDLO">
+      <ObjectId>1015</ObjectId>
+    </schema>
+    <schema id="930" parent="1" name="U_AZ3OS2">
+      <ObjectId>1016</ObjectId>
+    </schema>
+    <schema id="931" parent="1" name="U_GOPU9S">
+      <ObjectId>1017</ObjectId>
+    </schema>
+    <schema id="932" parent="1" name="U_ZJ0GQC">
+      <ObjectId>1018</ObjectId>
+    </schema>
+    <schema id="933" parent="1" name="U_F74QK3">
+      <ObjectId>1019</ObjectId>
+    </schema>
+    <schema id="934" parent="1" name="U_VKYCMI">
+      <ObjectId>1020</ObjectId>
+    </schema>
+    <schema id="935" parent="1" name="U_JD2VY7">
+      <ObjectId>1021</ObjectId>
+    </schema>
+    <schema id="936" parent="1" name="U_H0JBKL">
+      <ObjectId>1022</ObjectId>
+    </schema>
+    <schema id="937" parent="1" name="U_LNE6P5">
+      <ObjectId>1023</ObjectId>
+    </schema>
+    <schema id="938" parent="1" name="U_DJZZXN">
+      <ObjectId>1024</ObjectId>
+    </schema>
+    <schema id="939" parent="1" name="U_FMWOO3">
+      <ObjectId>1025</ObjectId>
+    </schema>
+    <schema id="940" parent="1" name="U_DBY3HC">
+      <ObjectId>1026</ObjectId>
+    </schema>
+    <schema id="941" parent="1" name="U_FHTXZI">
+      <ObjectId>1027</ObjectId>
+    </schema>
+    <schema id="942" parent="1" name="DOCS">
+      <ObjectId>1028</ObjectId>
+    </schema>
+    <schema id="943" parent="1" name="DVSYS">
+      <ObjectId>1279990</ObjectId>
+    </schema>
+    <schema id="944" parent="1" name="SYSBACKUP">
+      <ObjectId>2147483617</ObjectId>
+    </schema>
+    <schema id="945" parent="1" name="SYSDG">
+      <ObjectId>2147483618</ObjectId>
+    </schema>
+    <schema id="946" parent="1" name="SYSKM">
+      <ObjectId>2147483619</ObjectId>
+    </schema>
+    <schema id="947" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </schema>
+    <sequence id="948" parent="2" name="HIBERNATE_SEQUENCE">
+      <ObjectId>246684</ObjectId>
+      <CreatedTimestamp>2018-05-02.21:31:31</CreatedTimestamp>
+      <ModifiedTimestamp>2018-05-02.21:31:31</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <sequence id="949" parent="2" name="SEQ_1">
+      <ObjectId>204958</ObjectId>
+      <CreatedTimestamp>2017-12-04.17:40:50</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-04.17:40:50</ModifiedTimestamp>
+      <SequenceIdentity>1+2..100</SequenceIdentity>
+    </sequence>
+    <table id="950" parent="2" name="ASVANYOK">
+      <ObjectId>201234</ObjectId>
+      <CreatedTimestamp>2017-11-27.22:13:33</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-27.22:13:33</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="951" parent="2" name="BIZTOSITAS">
+      <ObjectId>221318</ObjectId>
+      <CreatedTimestamp>2018-01-04.11:44:32</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-04.11:44:32</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="952" parent="2" name="OTOSDOLGOZOK">
+      <ObjectId>198786</ObjectId>
+      <CreatedTimestamp>2017-11-20.17:47:12</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-20.17:47:12</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="953" parent="2" name="RENDSZER">
+      <ObjectId>201236</ObjectId>
+      <CreatedTimestamp>2017-11-27.22:13:46</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-04.15:53:29</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="954" parent="2" name="SZABADSAG2">
+      <ObjectId>210738</ObjectId>
+      <CreatedTimestamp>2017-12-11.14:05:19</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-11.14:05:19</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="955" parent="2" name="SZ_AUTO">
+      <ObjectId>210953</ObjectId>
+      <CreatedTimestamp>2017-12-11.18:58:15</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-11.18:58:35</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="956" parent="2" name="SZ_AUTOFELERTEKELES">
+      <ObjectId>221460</ObjectId>
+      <CreatedTimestamp>2018-01-04.11:59:15</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-04.11:59:15</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="957" parent="2" name="SZ_SZERELO">
+      <ObjectId>210916</ObjectId>
+      <CreatedTimestamp>2017-12-11.18:24:39</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-11.18:30:06</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="958" parent="2" name="SZ_TULAJDONOS">
+      <ObjectId>219995</ObjectId>
+      <CreatedTimestamp>2018-01-03.19:44:25</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-03.19:44:25</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="959" parent="2" name="TANFOLYAM">
+      <ObjectId>210918</ObjectId>
+      <CreatedTimestamp>2017-12-11.18:26:30</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-11.18:26:30</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="960" parent="2" name="Z_DOLGOZIK_RAJTA">
+      <ObjectId>205000</ObjectId>
+      <CreatedTimestamp>2017-12-04.18:10:45</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-04.18:21:41</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="961" parent="2" name="Z_DOLGOZO">
+      <ObjectId>198811</ObjectId>
+      <CreatedTimestamp>2017-11-20.17:55:20</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-11.15:23:50</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="962" parent="2" name="Z_HOZZATARTOZO">
+      <ObjectId>209998</ObjectId>
+      <CreatedTimestamp>2017-12-08.19:52:53</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-08.19:52:53</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="963" parent="2" name="Z_JUTALOM">
+      <ObjectId>209995</ObjectId>
+      <CreatedTimestamp>2017-12-08.18:58:01</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-08.19:00:09</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="964" parent="2" name="Z_OSZTALY">
+      <ObjectId>209997</ObjectId>
+      <CreatedTimestamp>2017-12-08.19:30:18</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-08.19:30:18</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="965" parent="2" name="Z_PROJEKT">
+      <ObjectId>209970</ObjectId>
+      <CreatedTimestamp>2017-12-08.16:27:25</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-08.16:30:40</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="966" parent="2" name="Z_SOKAT_DOLGOZOK">
+      <ObjectId>209634</ObjectId>
+      <CreatedTimestamp>2017-12-07.16:31:04</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-07.16:31:04</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="967" parent="2" name="Z_SZABADSAG">
+      <ObjectId>204967</ObjectId>
+      <CreatedTimestamp>2017-12-04.17:59:33</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-04.17:59:33</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <view id="968" parent="2" name="KARACSONY">
+      <ObjectId>205014</ObjectId>
+      <DependsOnIds>101817,101823</DependsOnIds>
+      <CreatedTimestamp>2017-12-04.18:27:22</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-04.18:27:22</ModifiedTimestamp>
+      <Modifiable>1</Modifiable>
+    </view>
+    <view id="969" parent="2" name="LEGOLCSOBB_SZURKE">
+      <ObjectId>221576</ObjectId>
+      <DependsOnIds>101859</DependsOnIds>
+      <CreatedTimestamp>2018-01-04.12:15:51</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-04.12:15:51</ModifiedTimestamp>
+      <Modifiable>1</Modifiable>
+    </view>
+    <view id="970" parent="2" name="MIKULAS">
+      <ObjectId>209982</ObjectId>
+      <DependsOnIds>198811,209998</DependsOnIds>
+      <CreatedTimestamp>2017-12-08.17:21:34</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-11.15:33:50</ModifiedTimestamp>
+      <Modifiable>1</Modifiable>
+    </view>
+    <view id="971" parent="2" name="Z_DOLGOZO_NEZET">
+      <ObjectId>204941</ObjectId>
+      <DependsOnIds>101817</DependsOnIds>
+      <CreatedTimestamp>2017-12-04.17:32:36</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-04.17:32:36</ModifiedTimestamp>
+      <Modifiable>1</Modifiable>
+    </view>
+    <synonym id="972" parent="2" name="JN">
+      <ObjectId>204951</ObjectId>
+      <CreatedTimestamp>2017-12-04.17:38:10</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-04.17:38:10</ModifiedTimestamp>
+      <TargetSchemaName>U_S8869R</TargetSchemaName>
+      <TargetObjectName>JUTALOM_NEZET</TargetObjectName>
+    </synonym>
+    <column id="973" parent="950" name="ASVANY_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="974" parent="950" name="NEV">
+      <Position>2</Position>
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="975" parent="950" name="SZIN">
+      <Position>3</Position>
+      <DataType>VARCHAR2(10 byte)|0s</DataType>
+    </column>
+    <index id="976" parent="950" name="ASVANY_ID_UQ">
+      <ObjectId>201235</ObjectId>
+      <CreatedTimestamp>2017-11-27.22:13:33</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-27.22:13:33</ModifiedTimestamp>
+      <TablespaceName>HALLGATO</TablespaceName>
+      <ColNames>ASVANY_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="977" parent="950" name="ASVANY_ID_UQ">
+      <ModifiedTimestamp>2017-11-27.22:13:33</ModifiedTimestamp>
+      <ColNames>ASVANY_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>ASVANY_ID_UQ</UnderlyingIndexName>
+    </key>
+    <column id="978" parent="951" name="BIZ_SZAM">
+      <Position>1</Position>
+      <DataType>NUMBER(5 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="979" parent="951" name="AUTO_AZON">
+      <Position>2</Position>
+      <DataType>NUMBER(5 digit)|0s</DataType>
+    </column>
+    <column id="980" parent="951" name="TULAJ_AZON">
+      <Position>3</Position>
+      <DataType>NUMBER(5 digit)|0s</DataType>
+    </column>
+    <column id="981" parent="951" name="TULAJ_EMAIL">
+      <Position>4</Position>
+      <DataType>VARCHAR2(30 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="982" parent="951" name="BIZT_KEZDO_DATUM">
+      <Position>5</Position>
+      <DataType>DATE|0s</DataType>
+    </column>
+    <column id="983" parent="951" name="BIZT_VEGE_DATUM">
+      <Position>6</Position>
+      <DataType>DATE|0s</DataType>
+    </column>
+    <column id="984" parent="951" name="HAVI_OSSZEG">
+      <Position>7</Position>
+      <DataType>NUMBER(5 digit)|0s</DataType>
+    </column>
+    <index id="985" parent="951" name="BIZTOSITAS_PK">
+      <ObjectId>221319</ObjectId>
+      <CreatedTimestamp>2018-01-04.11:44:32</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-04.11:44:32</ModifiedTimestamp>
+      <TablespaceName>HALLGATO</TablespaceName>
+      <ColNames>BIZ_SZAM</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="986" parent="951" name="SYS_C0080075">
+      <ObjectId>221320</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2018-01-04.11:44:32</CreatedTimestamp>
+      <ModifiedTimestamp>2018-01-04.11:44:32</ModifiedTimestamp>
+      <TablespaceName>HALLGATO</TablespaceName>
+      <ColNames>TULAJ_EMAIL</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="987" parent="951" name="BIZTOSITAS_PK">
+      <ModifiedTimestamp>2018-01-04.11:44:32</ModifiedTimestamp>
+      <ColNames>BIZ_SZAM</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>BIZTOSITAS_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="988" parent="951" name="SYS_C0080075">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2018-01-04.11:44:32</ModifiedTimestamp>
+      <ColNames>TULAJ_EMAIL</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C0080075</UnderlyingIndexName>
+    </key>
+    <check id="989" parent="951" name="CHECK_OSSZEG">
+      <ModifiedTimestamp>2018-01-04.11:44:32</ModifiedTimestamp>
+      <ColNames>HAVI_OSSZEG</ColNames>
+      <Predicate>havi_osszeg&gt;10000</Predicate>
+    </check>
+    <column id="990" parent="952" name="VNEV">
+      <Position>1</Position>
+      <DataType>VARCHAR2(30 byte)|0s</DataType>
+    </column>
+    <column id="991" parent="952" name="KNEV">
+      <Position>2</Position>
+      <DataType>VARCHAR2(30 byte)|0s</DataType>
+    </column>
+    <column id="992" parent="952" name="SZSZ">
+      <Position>3</Position>
+      <DataType>CHAR(11 byte)|0s</DataType>
+    </column>
+    <column id="993" parent="952" name="SZDATUM">
+      <Position>4</Position>
+      <DataType>DATE|0s</DataType>
+    </column>
+    <column id="994" parent="952" name="LAKCIM">
+      <Position>5</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="995" parent="952" name="NEM">
+      <Position>6</Position>
+      <DataType>CHAR(1 byte)|0s</DataType>
+    </column>
+    <column id="996" parent="952" name="FIZETES">
+      <Position>7</Position>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+    </column>
+    <column id="997" parent="952" name="FONOK_SZSZ">
+      <Position>8</Position>
+      <DataType>CHAR(11 byte)|0s</DataType>
+    </column>
+    <column id="998" parent="952" name="OSZ">
+      <Position>9</Position>
+      <DataType>NUMBER(5 digit)|0s</DataType>
+    </column>
+    <column id="999" parent="953" name="AS_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="1000" parent="953" name="R_NEV">
+      <Position>2</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <column id="1001" parent="953" name="INV_PONT">
+      <Position>3</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+      <DefaultExpression>&apos;nincs&apos;</DefaultExpression>
+    </column>
+    <index id="1002" parent="953" name="RENDSZER_PK">
+      <ObjectId>204926</ObjectId>
+      <CreatedTimestamp>2017-12-04.15:53:29</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-04.15:53:29</ModifiedTimestamp>
+      <TablespaceName>HALLGATO</TablespaceName>
+      <ColNames>AS_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="1003" parent="953" name="RENDSZER_PK">
+      <ModifiedTimestamp>2017-12-04.15:53:30</ModifiedTimestamp>
+      <ColNames>AS_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>RENDSZER_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="1004" parent="953" name="RENDSZER_FK">
+      <ModifiedTimestamp>2017-11-27.22:13:46</ModifiedTimestamp>
+      <ColNames>AS_ID</ColNames>
+      <RefSchemaName>U_S8869R</RefSchemaName>
+      <RefTableName>ASVANYOK</RefTableName>
+      <RefKeyName>ASVANY_ID_UQ</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="1005" parent="954" name="DSZSZ">
+      <Position>1</Position>
+      <DataType>CHAR(11 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="1006" parent="954" name="METTOL">
+      <Position>2</Position>
+      <DataType>DATE|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>sysdate</DefaultExpression>
+    </column>
+    <column id="1007" parent="954" name="MEDDIG">
+      <Position>3</Position>
+      <DataType>DATE|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="1008" parent="954" name="SZABADSAG_PK2">
+      <ObjectId>210739</ObjectId>
+      <CreatedTimestamp>2017-12-11.14:05:19</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-11.14:05:19</ModifiedTimestamp>
+      <TablespaceName>HALLGATO</TablespaceName>
+      <ColNames>DSZSZ
+METTOL
+MEDDIG</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="1009" parent="954" name="SZABADSAG_PK2">
+      <ModifiedTimestamp>2017-12-11.14:05:19</ModifiedTimestamp>
+      <ColNames>DSZSZ
+METTOL
+MEDDIG</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SZABADSAG_PK2</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="1010" parent="954" name="SZABADSAG_FK2">
+      <ModifiedTimestamp>2017-12-11.14:05:19</ModifiedTimestamp>
+      <ColNames>DSZSZ</ColNames>
+      <RefSchemaName>U_S8869R</RefSchemaName>
+      <RefTableName>Z_DOLGOZO</RefTableName>
+      <RefKeyName>DOLGOZO_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <check id="1011" parent="954" name="DATECHECK2">
+      <ModifiedTimestamp>2017-12-11.14:05:19</ModifiedTimestamp>
+      <ColNames>MEDDIG
+METTOL</ColNames>
+      <Predicate>mettol&lt;meddig</Predicate>
+    </check>
+    <column id="1012" parent="955" name="AZON">
+      <Position>1</Position>
+      <DataType>NUMBER(5 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="1013" parent="955" name="SZIN">
+      <Position>2</Position>
+      <DataType>VARCHAR2(20 char)|0us</DataType>
+    </column>
+    <column id="1014" parent="955" name="ELSO_VASARLAS_IDOPONTJA">
+      <Position>3</Position>
+      <DataType>DATE|0s</DataType>
+    </column>
+    <column id="1015" parent="955" name="ELSO_VASARLASI_AR">
+      <Position>4</Position>
+      <DataType>NUMBER(20 digit)|0s</DataType>
+    </column>
+    <column id="1016" parent="955" name="TIPUS_AZON">
+      <Position>5</Position>
+      <DataType>NUMBER(5 digit)|0s</DataType>
+    </column>
+    <column id="1017" parent="955" name="RENDSZAM">
+      <Position>6</Position>
+      <DataType>VARCHAR2(10 char)|0us</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="1018" parent="956" name="AUTO_AZON">
+      <Position>1</Position>
+      <DataType>NUMBER(5 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="1019" parent="956" name="DATUM">
+      <Position>2</Position>
+      <DataType>DATE|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="1020" parent="956" name="ERTEK">
+      <Position>3</Position>
+      <DataType>NUMBER(20 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="1021" parent="957" name="AZON">
+      <Position>1</Position>
+      <DataType>NUMBER(5 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="1022" parent="957" name="NEV">
+      <Position>2</Position>
+      <DataType>VARCHAR2(50 char)|0us</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="1023" parent="957" name="CIM">
+      <Position>3</Position>
+      <DataType>VARCHAR2(100 char)|0us</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="1024" parent="957" name="TELEFON">
+      <Position>4</Position>
+      <DataType>VARCHAR2(15 char)|0us</DataType>
+    </column>
+    <column id="1025" parent="957" name="ADOSZAM">
+      <Position>5</Position>
+      <DataType>CHAR(10 char)|0us</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="1026" parent="957" name="SZERELO_PK">
+      <ObjectId>210917</ObjectId>
+      <CreatedTimestamp>2017-12-11.18:25:36</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-11.18:25:36</ModifiedTimestamp>
+      <TablespaceName>HALLGATO</TablespaceName>
+      <ColNames>AZON</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="1027" parent="957" name="SZERELO_PK">
+      <ModifiedTimestamp>2017-12-11.18:25:36</ModifiedTimestamp>
+      <ColNames>AZON</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SZERELO_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="1028" parent="958" name="AZON">
+      <Position>1</Position>
+      <DataType>NUMBER(5 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="1029" parent="958" name="NEV">
+      <Position>2</Position>
+      <DataType>VARCHAR2(50 char)|0us</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="1030" parent="958" name="CIM">
+      <Position>3</Position>
+      <DataType>VARCHAR2(100 char)|0us</DataType>
+    </column>
+    <column id="1031" parent="959" name="AZON">
+      <Position>1</Position>
+      <DataType>NUMBER(5 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="1032" parent="959" name="NEV">
+      <Position>2</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <column id="1033" parent="959" name="LEIRAS">
+      <Position>3</Position>
+      <DataType>VARCHAR2(30 byte)|0s</DataType>
+    </column>
+    <column id="1034" parent="959" name="KEZDET">
+      <Position>4</Position>
+      <DataType>DATE|0s</DataType>
+    </column>
+    <column id="1035" parent="959" name="VEG">
+      <Position>5</Position>
+      <DataType>DATE|0s</DataType>
+    </column>
+    <column id="1036" parent="959" name="SZ_AZON">
+      <Position>6</Position>
+      <DataType>NUMBER(5 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="1037" parent="959" name="TANFOLYAM_PK">
+      <ObjectId>210919</ObjectId>
+      <CreatedTimestamp>2017-12-11.18:26:30</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-11.18:26:30</ModifiedTimestamp>
+      <TablespaceName>HALLGATO</TablespaceName>
+      <ColNames>AZON
+SZ_AZON</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="1038" parent="959" name="TANFOLYAM_PK">
+      <ModifiedTimestamp>2017-12-11.18:26:30</ModifiedTimestamp>
+      <ColNames>AZON
+SZ_AZON</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>TANFOLYAM_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="1039" parent="959" name="TANFOLYAM_FK">
+      <ModifiedTimestamp>2017-12-11.18:26:30</ModifiedTimestamp>
+      <ColNames>SZ_AZON</ColNames>
+      <RefSchemaName>U_S8869R</RefSchemaName>
+      <RefTableName>SZ_SZERELO</RefTableName>
+      <RefKeyName>SZERELO_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="1040" parent="960" name="DSZSZ">
+      <Position>1</Position>
+      <DataType>CHAR(11 byte)|0s</DataType>
+    </column>
+    <column id="1041" parent="960" name="PSZ">
+      <Position>2</Position>
+      <DataType>NUMBER(5 digit)|0s</DataType>
+    </column>
+    <column id="1042" parent="960" name="ORAK">
+      <Position>3</Position>
+      <DataType>NUMBER(10,2 digit)|0s</DataType>
+    </column>
+    <column id="1043" parent="961" name="VNEV">
+      <Position>1</Position>
+      <DataType>VARCHAR2(30 byte)|0s</DataType>
+    </column>
+    <column id="1044" parent="961" name="KNEV">
+      <Position>2</Position>
+      <DataType>VARCHAR2(30 byte)|0s</DataType>
+    </column>
+    <column id="1045" parent="961" name="SZSZ">
+      <Position>3</Position>
+      <DataType>CHAR(11 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="1046" parent="961" name="SZDATUM">
+      <Position>4</Position>
+      <DataType>DATE|0s</DataType>
+    </column>
+    <column id="1047" parent="961" name="LAKCIM">
+      <Position>5</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="1048" parent="961" name="NEM">
+      <Position>6</Position>
+      <DataType>CHAR(1 byte)|0s</DataType>
+    </column>
+    <column id="1049" parent="961" name="FIZETES">
+      <Position>7</Position>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+    </column>
+    <column id="1050" parent="961" name="FONOK_SZSZ">
+      <Position>8</Position>
+      <DataType>CHAR(11 byte)|0s</DataType>
+    </column>
+    <column id="1051" parent="961" name="OSZ">
+      <Position>9</Position>
+      <DataType>NUMBER(5 digit)|0s</DataType>
+    </column>
+    <index id="1052" parent="961" name="DOLGOZO_PK">
+      <ObjectId>198891</ObjectId>
+      <CreatedTimestamp>2017-11-20.18:14:09</CreatedTimestamp>
+      <ModifiedTimestamp>2017-11-20.18:14:09</ModifiedTimestamp>
+      <TablespaceName>HALLGATO</TablespaceName>
+      <ColNames>SZSZ</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="1053" parent="961" name="DOLGOZO_PK">
+      <ModifiedTimestamp>2017-11-20.18:14:09</ModifiedTimestamp>
+      <ColNames>SZSZ</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>DOLGOZO_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="1054" parent="962" name="DSZSZ">
+      <Position>1</Position>
+      <DataType>CHAR(11 byte)|0s</DataType>
+    </column>
+    <column id="1055" parent="962" name="HOZZATARTOZO_NEV">
+      <Position>2</Position>
+      <DataType>VARCHAR2(30 byte)|0s</DataType>
+    </column>
+    <column id="1056" parent="962" name="NEM">
+      <Position>3</Position>
+      <DataType>CHAR(1 byte)|0s</DataType>
+    </column>
+    <column id="1057" parent="962" name="SZDATUM">
+      <Position>4</Position>
+      <DataType>DATE|0s</DataType>
+    </column>
+    <column id="1058" parent="962" name="KAPCSOLAT">
+      <Position>5</Position>
+      <DataType>VARCHAR2(30 byte)|0s</DataType>
+    </column>
+    <column id="1059" parent="963" name="DSZSZ_">
+      <Position>1</Position>
+      <DataType>CHAR(11 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="1060" parent="963" name="OSSZEG_">
+      <Position>2</Position>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+      <DefaultExpression>10000</DefaultExpression>
+    </column>
+    <column id="1061" parent="963" name="DATUM_">
+      <Position>3</Position>
+      <DataType>DATE|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="1062" parent="963" name="INDOK_">
+      <Position>4</Position>
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+    </column>
+    <index id="1063" parent="963" name="JT_PK_">
+      <ObjectId>209996</ObjectId>
+      <CreatedTimestamp>2017-12-08.18:58:01</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-08.18:58:01</ModifiedTimestamp>
+      <TablespaceName>HALLGATO</TablespaceName>
+      <ColNames>DSZSZ_
+DATUM_</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="1064" parent="963" name="JT_PK_">
+      <ModifiedTimestamp>2017-12-08.18:58:01</ModifiedTimestamp>
+      <ColNames>DSZSZ_
+DATUM_</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>JT_PK_</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="1065" parent="963" name="JUTALOM_FK">
+      <ModifiedTimestamp>2017-12-08.19:00:09</ModifiedTimestamp>
+      <ColNames>DSZSZ_</ColNames>
+      <RefSchemaName>U_S8869R</RefSchemaName>
+      <RefTableName>Z_DOLGOZO</RefTableName>
+      <RefKeyName>DOLGOZO_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="1066" parent="964" name="ONEV">
+      <Position>1</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <column id="1067" parent="964" name="OSZAM">
+      <Position>2</Position>
+      <DataType>NUMBER(5 digit)|0s</DataType>
+    </column>
+    <column id="1068" parent="964" name="VEZ_SZSZ">
+      <Position>3</Position>
+      <DataType>CHAR(11 byte)|0s</DataType>
+    </column>
+    <column id="1069" parent="964" name="VEZ_KEZDO_DATUM">
+      <Position>4</Position>
+      <DataType>DATE|0s</DataType>
+    </column>
+    <column id="1070" parent="965" name="PNEV">
+      <Position>1</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <column id="1071" parent="965" name="PSZAM">
+      <Position>2</Position>
+      <DataType>NUMBER(5 digit)|0s</DataType>
+    </column>
+    <column id="1072" parent="965" name="PHELYSZIN">
+      <Position>3</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <column id="1073" parent="965" name="OSZ">
+      <Position>4</Position>
+      <DataType>NUMBER(5 digit)|0s</DataType>
+    </column>
+    <column id="1074" parent="966" name="VNEV">
+      <Position>1</Position>
+      <DataType>VARCHAR2(30 byte)|0s</DataType>
+    </column>
+    <column id="1075" parent="966" name="KNEV">
+      <Position>2</Position>
+      <DataType>VARCHAR2(30 byte)|0s</DataType>
+    </column>
+    <column id="1076" parent="966" name="SZSZ">
+      <Position>3</Position>
+      <DataType>CHAR(11 byte)|0s</DataType>
+    </column>
+    <column id="1077" parent="966" name="ORAK">
+      <Position>4</Position>
+      <DataType>NUMBER(10,2 digit)|0s</DataType>
+    </column>
+    <column id="1078" parent="966" name="PSZ">
+      <Position>5</Position>
+      <DataType>NUMBER(5 digit)|0s</DataType>
+    </column>
+    <column id="1079" parent="967" name="DSZSZ">
+      <Position>1</Position>
+      <DataType>CHAR(11 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="1080" parent="967" name="NAPOK">
+      <Position>2</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+    </column>
+    <column id="1081" parent="967" name="METTOL">
+      <Position>3</Position>
+      <DataType>DATE|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>sysdate</DefaultExpression>
+    </column>
+    <column id="1082" parent="967" name="MEDDIG">
+      <Position>4</Position>
+      <DataType>DATE|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="1083" parent="967" name="SZABADSAG_PK">
+      <ObjectId>204968</ObjectId>
+      <CreatedTimestamp>2017-12-04.17:59:33</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-04.17:59:33</ModifiedTimestamp>
+      <TablespaceName>HALLGATO</TablespaceName>
+      <ColNames>DSZSZ
+METTOL
+MEDDIG</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="1084" parent="967" name="SZABADSAG_PK">
+      <ModifiedTimestamp>2017-12-04.17:59:33</ModifiedTimestamp>
+      <ColNames>DSZSZ
+METTOL
+MEDDIG</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SZABADSAG_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="1085" parent="967" name="SZABADSAG_FK">
+      <ModifiedTimestamp>2017-12-04.17:59:33</ModifiedTimestamp>
+      <ColNames>DSZSZ</ColNames>
+      <RefSchemaName>U_S8869R</RefSchemaName>
+      <RefTableName>Z_DOLGOZO</RefTableName>
+      <RefKeyName>DOLGOZO_PK</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <check id="1086" parent="967" name="NAPOK_CHK">
+      <ModifiedTimestamp>2017-12-04.17:59:33</ModifiedTimestamp>
+      <ColNames>NAPOK</ColNames>
+      <Predicate>napok between 1 and 40</Predicate>
+    </check>
+    <check id="1087" parent="967" name="METTOL_CHK">
+      <ModifiedTimestamp>2017-12-04.17:59:33</ModifiedTimestamp>
+      <ColNames>MEDDIG
+METTOL</ColNames>
+      <Predicate>mettol&lt;meddig</Predicate>
+    </check>
+    <column id="1088" parent="968" name="NÉV">
+      <Position>1</Position>
+      <DataType>VARCHAR2(61 byte)|0s</DataType>
+    </column>
+    <column id="1089" parent="968" name="AJÁNDÉKOK">
+      <Position>2</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+    </column>
+    <column id="1090" parent="969" name="RENDSZAM">
+      <Position>1</Position>
+      <DataType>VARCHAR2(10 char)|0us</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="1091" parent="970" name="VNEV">
+      <Position>1</Position>
+      <DataType>VARCHAR2(30 byte)|0s</DataType>
+    </column>
+    <column id="1092" parent="970" name="KNEV">
+      <Position>2</Position>
+      <DataType>VARCHAR2(30 byte)|0s</DataType>
+    </column>
+    <column id="1093" parent="970" name="SZSZ">
+      <Position>3</Position>
+      <DataType>CHAR(11 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="1094" parent="970" name="HOZZATARTOZÓ">
+      <Position>4</Position>
+      <DataType>NUMBER(*)|0s</DataType>
+    </column>
+    <column id="1095" parent="971" name="VNEV">
+      <Position>1</Position>
+      <DataType>VARCHAR2(30 byte)|0s</DataType>
+    </column>
+    <column id="1096" parent="971" name="KNEV">
+      <Position>2</Position>
+      <DataType>VARCHAR2(30 byte)|0s</DataType>
+    </column>
+    <column id="1097" parent="971" name="SZSZ">
+      <Position>3</Position>
+      <DataType>CHAR(11 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="1098" parent="971" name="SZDATUM">
+      <Position>4</Position>
+      <DataType>DATE|0s</DataType>
+    </column>
+    <column id="1099" parent="971" name="LAKCIM">
+      <Position>5</Position>
+      <DataType>VARCHAR2(100 byte)|0s</DataType>
+    </column>
+    <column id="1100" parent="971" name="NEM">
+      <Position>6</Position>
+      <DataType>CHAR(1 byte)|0s</DataType>
+    </column>
+    <column id="1101" parent="971" name="FIZETES">
+      <Position>7</Position>
+      <DataType>NUMBER(10 digit)|0s</DataType>
+    </column>
+    <column id="1102" parent="971" name="FONOK_SZSZ">
+      <Position>8</Position>
+      <DataType>CHAR(11 byte)|0s</DataType>
+    </column>
+    <column id="1103" parent="971" name="OSZ">
+      <Position>9</Position>
+      <DataType>NUMBER(5 digit)|0s</DataType>
+    </column>
+  </database-model>
+</dataSource>

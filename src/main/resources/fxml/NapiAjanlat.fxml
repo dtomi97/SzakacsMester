@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="760.0" prefWidth="1070.0" styleClass="root" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="control.MainController">
+  <stylesheets>
+    <URL value="@../StyleSheet.css" />
+  </stylesheets>
+  <VBox layoutY="129.0" prefHeight="631.0" prefWidth="140.0" styleClass="vbox">
+    <AnchorPane prefHeight="645.0" prefWidth="138.0">
+      <Hyperlink fx:id="Profil" alignment="CENTER" contentDisplay="CENTER" layoutX="-1.0" layoutY="14.0" onAction="#handleContentButton" prefHeight="40.0" prefWidth="140.0" text="Profil" textAlignment="CENTER">
+        <font>
+          <Font size="20.0" fx:id="x1" />
+        </font>
+        <textFill>
+          <Color blue="0.251" green="0.251" red="0.251" fx:id="x2" />
+        </textFill>
+      </Hyperlink>
+      <Hyperlink fx:id="NapiAjanlat" alignment="CENTER" contentDisplay="CENTER" font="$x1" layoutX="-1.0" layoutY="98.0" onAction="#handleContentButton" prefHeight="40.0" prefWidth="140.0" text="Napi ajánlat" textAlignment="CENTER" textFill="$x2" />
+      <Hyperlink fx:id="Kilepes" alignment="CENTER" contentDisplay="CENTER" font="$x1" layoutX="2.0" layoutY="138.0" onAction="#handleKilepesButton" prefHeight="40.0" prefWidth="140.0" text="Kilépés" textAlignment="CENTER" textFill="$x2" />
+      <Hyperlink fx:id="Receptek" alignment="CENTER" contentDisplay="CENTER" font="$x1" layoutX="-1.0" layoutY="58.0" onAction="#handleContentButton" prefHeight="40.0" prefWidth="140.0" text="Receptek" textAlignment="CENTER" textFill="$x2" />
+    </AnchorPane>
+    <stylesheets>
+      <URL value="@../StyleSheet.css" />
+    </stylesheets>
+  </VBox>
+  <HBox layoutX="138.0" minHeight="127.0" prefHeight="129.0" prefWidth="932.0" styleClass="hbox">
+    <AnchorPane prefHeight="129.0" prefWidth="932.0">
+      <Label fx:id="NapinameLabel" layoutX="14.0" layoutY="14.0" prefHeight="40.0" prefWidth="176.0" text=" " />
+      <Label fx:id="NapilvlLabel" layoutX="14.0" layoutY="75.0" prefHeight="40.0" prefWidth="176.0" text="Szint: " />
+    </AnchorPane>
+  </HBox>
+  <AnchorPane layoutX="142.0" layoutY="129.0" prefHeight="631.0" prefWidth="925.0">
+    <Label id="actualFoodName" fx:id="actualFoodNameLabel" alignment="CENTER" layoutX="193.0" layoutY="14.0" prefHeight="70.0" prefWidth="540.0" text="label" />
+    <ScrollPane layoutX="128.0" layoutY="101.0" prefHeight="411.0" prefWidth="669.0">
+      <AnchorPane id="Content" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1000.0" prefWidth="650.0">
+        <Label fx:id="actualFoodRecept" alignment="TOP_LEFT" contentDisplay="TOP" labelFor="$actualFoodRecept" prefHeight="1000.0" prefWidth="650.0" text="Label" textAlignment="LEFT" textOverrun="ELLIPSIS" wrapText="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      </AnchorPane>
+    </ScrollPane>
+  </AnchorPane>
+  <ImageView fitHeight="129.00001525878906" fitWidth="138.98990956469086" layoutX="1.0" pickOnBounds="true" preserveRatio="true">
+    <Image url="@../images/profile.png" />
+  </ImageView>
+</AnchorPane>

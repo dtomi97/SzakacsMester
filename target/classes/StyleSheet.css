@@ -1,0 +1,24 @@
+﻿.root{
+    -fx-background-color: #383838;
+    -fx-font-size: 11pt;
+}
+
+.vbox{
+    -fx-background-color: #fffb99;
+
+}
+.hbox{
+    -fx-background-image:url(images/vbox.jpg);
+}
+
+.login{
+    -fx-cursor: hand;
+}
+
+.label{
+	-fx-font-size: 20;
+}
+
+
+
+

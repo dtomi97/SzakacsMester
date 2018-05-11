@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+<?import java.net.URL?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" prefHeight="760.0" prefWidth="1070.0" styleClass="root"
+            xmlns="http://javafx.com/javafx/2.2" fx:controller="control.MainController">
+    <stylesheets>
+        <URL value="@../StyleSheet.css"/>
+    </stylesheets>
+    <VBox fillWidth="true" layoutY="129.0" prefHeight="631.0" prefWidth="140.0" styleClass="vbox">
+        <AnchorPane prefHeight="645.0" prefWidth="138.0">
+            <Hyperlink fx:id="Profil" alignment="CENTER" contentDisplay="CENTER" layoutX="-1.0" layoutY="14.0"
+                       onAction="#handleContentButton" prefHeight="40.0" prefWidth="140.0" text="Profil"
+                       textAlignment="CENTER">
+                <font>
+                    <Font size="20.0" fx:id="x1"/>
+                </font>
+                <textFill>
+                    <Color blue="0.251" green="0.251" red="0.251" fx:id="x2"/>
+                </textFill>
+            </Hyperlink>
+            <Hyperlink fx:id="NapiAjanlat" alignment="CENTER" contentDisplay="CENTER" font="$x1" layoutX="-1.0"
+                       layoutY="98.0" onAction="#handleContentButton" prefHeight="40.0" prefWidth="140.0"
+                       text="Napi ajánlat" textAlignment="CENTER" textFill="$x2"/>
+            <Hyperlink fx:id="Kilepes" alignment="CENTER" contentDisplay="CENTER" font="$x1" layoutX="2.0"
+                       layoutY="138.0" onAction="#handleKilepesButton" prefHeight="40.0" prefWidth="140.0"
+                       text="Kilépés" textAlignment="CENTER" textFill="$x2"/>
+            <Hyperlink fx:id="Receptek" alignment="CENTER" contentDisplay="CENTER" font="$x1" layoutX="-1.0"
+                       layoutY="58.0" onAction="#handleContentButton" prefHeight="40.0" prefWidth="140.0"
+                       text="Receptek" textAlignment="CENTER" textFill="$x2"/>
+        </AnchorPane>
+        <stylesheets>
+            <URL value="@../StyleSheet.css"/>
+        </stylesheets>
+    </VBox>
+    <HBox layoutX="138.0" minHeight="127.0" prefHeight="129.0" prefWidth="932.0" styleClass="hbox">
+        <AnchorPane prefHeight="129.0" prefWidth="932.0">
+            <Label fx:id="menuNameLabel" layoutX="14.0" layoutY="14.0" prefHeight="40.0" prefWidth="176.0"
+                   textFill="CHOCOLATE"/>
+            <Label fx:id="menulvlLabel" layoutX="14.0" layoutY="75.0" prefHeight="40.0" prefWidth="176.0"
+                   text="Szint: "/>
+        </AnchorPane>
+    </HBox>
+    <AnchorPane layoutX="142.0" layoutY="129.0" prefHeight="631.0" prefWidth="925.0">
+        <Label id="recept_nev" layoutX="24.0" layoutY="25.0" prefHeight="53.0" prefWidth="199.0"
+               text="Elkészített ételeim: "/>
+        <ListView fx:id="food_done_list" focusTraversable="false" layoutX="223.0" layoutY="30.0" prefHeight="199.0"
+                  prefWidth="670.0"/>
+        <Label id="recept_nev" layoutX="24.0" layoutY="263.0" prefHeight="53.0" prefWidth="199.0"
+               text="Elért Eredmények:"/>
+        <ListView fx:id="achievment_list" layoutX="223.0" layoutY="263.0" prefHeight="199.0" prefWidth="670.0"/>
+        <Label layoutX="24.0" layoutY="505.0" prefHeight="84.0" prefWidth="208.0" text="Ma ezt készítettem el : "/>
+        <TextField fx:id="keszEtelTextField" layoutX="223.0" layoutY="534.0" prefHeight="40.0" prefWidth="317.0"/>
+        <Button fx:id="doneButton" layoutX="568.0" layoutY="534.0" mnemonicParsing="false" prefHeight="40.0"
+                prefWidth="199.0" text="Felveszem a listára!" onAction="#persistFood"/>
+    </AnchorPane>
+    <ImageView fitHeight="129.00001525878906" fitWidth="138.98990956469086" layoutX="1.0" pickOnBounds="true"
+               preserveRatio="true">
+        <Image url="@../images/profile.png"/>
+    </ImageView>
+</AnchorPane>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="in.jlibs:jlibs-xml-binding:2.2.1" type="repository">
+    <properties maven-id="in.jlibs:jlibs-xml-binding:2.2.1" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/in/jlibs/jlibs-xml-binding/2.2.1/jlibs-xml-binding-2.2.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/in/jlibs/jlibs-xml/2.2.1/jlibs-xml-2.2.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/in/jlibs/jlibs-core/2.2.1/jlibs-core-2.2.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/in/jlibs/jlibs-visitor/2.2.1/jlibs-visitor-2.2.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

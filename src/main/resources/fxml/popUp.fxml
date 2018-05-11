@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import java.lang.*?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" minHeight="105.0" minWidth="700.0" prefHeight="800.0" prefWidth="800.0"
+            xmlns="http://javafx.com/javafx/2.2" fx:controller="control.PopUpWindowController">
+    <TextArea editable="false" layoutX="50.0" layoutY="28.0" prefHeight="102.0" prefWidth="700.0"
+              text="Üdv, Csókolom, Hello, Szia, Csá!&#10;Ez itt egy teszt amit ha nem töltesz ki 3 napig üldözni fog egy kanos malac és megdugja a lábad ha hagyod magad.&#10;&#10;"
+              wrapText="true"/>
+    <ScrollPane layoutX="55.0" layoutY="153.0" prefHeight="600.0" prefWidth="691.0">
+        <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="1200.0" prefWidth="691.0">
+            <TextField editable="false" layoutX="14.0" layoutY="14.0" prefHeight="40.0" prefWidth="639.0"
+                       text="Mi kell a rántáshoz?"/>
+            <ChoiceBox fx:id="elso_kerdes" layoutX="14.0" layoutY="68.0" prefWidth="234.0">
+                <items>
+                    <FXCollections fx:factory="observableArrayList">
+                        <String fx:value="liszt, tej, víz"/>
+                        <String fx:value="liszt, vaj, víz"/>
+                        <String fx:value="liszt, olaj/zsír, víz"/>
+                        <String fx:value="tej, tejföl, víz"/>
+                    </FXCollections>
+                </items>
+            </ChoiceBox>
+            <TextField editable="false" layoutX="14.0" layoutY="114.0" prefHeight="40.0" prefWidth="639.0"
+                       text="Mi kell a habaráshoz?"/>
+            <ChoiceBox fx:id="masodik_kerdes" layoutX="14.0" layoutY="169.0" prefWidth="234.0">
+                <items>
+                    <FXCollections fx:factory="observableArrayList">
+                        <String fx:value="tejszínhab"/>
+                        <String fx:value="főzőtejszín"/>
+                        <String fx:value="vaj"/>
+                        <String fx:value="tejföl"/>
+                    </FXCollections>
+                </items>
+            </ChoiceBox>
+            <TextField editable="false" layoutX="14.0" layoutY="214.0" prefHeight="40.0" prefWidth="639.0"
+                       text="Mi a gránátos kocka?"/>
+            <ChoiceBox fx:id="harmadik_kerdes" layoutX="14.0" layoutY="269.0" prefWidth="234.0">
+                <items>
+                    <FXCollections fx:factory="observableArrayList">
+                        <String fx:value="Rakott krumpli"/>
+                        <String fx:value="Krumplis tészta"/>
+                        <String fx:value="Csokis sütemény"/>
+                        <String fx:value="Nincs ilyen étel"/>
+                    </FXCollections>
+                </items>
+            </ChoiceBox>
+            <TextField editable="false" layoutX="14.0" layoutY="314.0" prefHeight="40.0" prefWidth="639.0"
+                       text="Milyen sorrendben kellenek a hozzávalók a prézlihez?"/>
+            <ChoiceBox fx:id="negyedik_kerdes" layoutX="14.0" layoutY="369.0" prefWidth="234.0">
+                <items>
+                    <FXCollections fx:factory="observableArrayList">
+                        <String fx:value="tojás, liszt, zsemlemorzsa"/>
+                        <String fx:value="zsemlemorzsa, liszt, tojás"/>
+                        <String fx:value="liszt, tojás, zsemlemorzsa"/>
+                        <String fx:value="liszt, zsemlemorzsa, tojás"/>
+                    </FXCollections>
+                </items>
+            </ChoiceBox>
+            <TextField editable="false" layoutX="14.0" layoutY="414.0" prefHeight="40.0" prefWidth="639.0"
+                       text="Mennyi víz szükséges 0,5kg rízs kifőzéséhez?"/>
+            <ChoiceBox fx:id="otodik_kerdes" layoutX="14.0" layoutY="469.0" prefWidth="234.0">
+                <items>
+                    <FXCollections fx:factory="observableArrayList">
+                        <String fx:value="2,5dl"/>
+                        <String fx:value="5 dl"/>
+                        <String fx:value="10 dl"/>
+                        <String fx:value="15 dl"/>
+                    </FXCollections>
+                </items>
+            </ChoiceBox>
+            <TextField editable="false" layoutX="14.0" layoutY="514.0" prefHeight="40.0" prefWidth="639.0"
+                       text="Mennyi túró kell 1kg sárgatúró elkészítéséhez?"/>
+            <ChoiceBox fx:id="hatodik_kerdes" layoutX="14.0" layoutY="569.0" prefWidth="234.0">
+                <items>
+                    <FXCollections fx:factory="observableArrayList">
+                        <String fx:value="10 dkg"/>
+                        <String fx:value="20 dkg"/>
+                        <String fx:value="50 dkg"/>
+                        <String fx:value="Nem kell hozzá"/>
+                    </FXCollections>
+                </items>
+            </ChoiceBox>
+            <TextField editable="false" layoutX="14.0" layoutY="614.0" prefHeight="40.0" prefWidth="639.0"
+                       text="Kell-e a kolbásztöltéshez zsíradék?"/>
+            <ChoiceBox fx:id="hetedik_kerdes" layoutX="14.0" layoutY="669.0" prefWidth="234.0">
+                <items>
+                    <FXCollections fx:factory="observableArrayList">
+                        <String fx:value="igen"/>
+                        <String fx:value="nem"/>
+                    </FXCollections>
+                </items>
+            </ChoiceBox>
+            <TextField editable="false" layoutX="14.0" layoutY="714.0" prefHeight="40.0" prefWidth="639.0"
+                       text="Mi kell a semmikiflibe (hókifli)?"/>
+            <ChoiceBox fx:id="nyolcadik_kerdes" layoutX="14.0" layoutY="769.0" prefWidth="234.0">
+                <items>
+                    <FXCollections fx:factory="observableArrayList">
+                        <String fx:value="semmi"/>
+                        <String fx:value="puding"/>
+                        <String fx:value="lekvár"/>
+                        <String fx:value="túró"/>
+                    </FXCollections>
+                </items>
+            </ChoiceBox>
+            <TextField editable="false" layoutX="14.0" layoutY="814.0" prefHeight="40.0" prefWidth="639.0"
+                       text="Melyikhez kell a legtöbb hozzávaló?"/>
+            <ChoiceBox fx:id="kilencedik_kerdes" layoutX="14.0" layoutY="869.0" prefWidth="234.0">
+                <items>
+                    <FXCollections fx:factory="observableArrayList">
+                        <String fx:value="paradicsomleves"/>
+                        <String fx:value="frankfurtileves"/>
+                        <String fx:value="gyümölcsleves"/>
+                        <String fx:value="tojásleves"/>
+                    </FXCollections>
+                </items>
+            </ChoiceBox>
+            <TextField editable="false" layoutX="14.0" layoutY="914.0" prefHeight="40.0" prefWidth="639.0"
+                       text="Hogyan kerülhetjük el, hogy a kifőtt tészta ne ragadjon össze?"/>
+            <ChoiceBox fx:id="tizedik_kerdes" layoutX="14.0" layoutY="969.0" prefWidth="234.0">
+                <items>
+                    <FXCollections fx:factory="observableArrayList">
+                        <String fx:value="több sót rakok a tésztavízbe"/>
+                        <String fx:value="olajat rakok a tésztavízbe"/>
+                        <String fx:value="sok vízben főzöm ki a tésztát"/>
+                        <String fx:value="alacsony lángon főzöm ki a tésztát"/>
+                    </FXCollections>
+                </items>
+            </ChoiceBox>
+            <Button id="finishedTest" fx:id="finishedTest" blendMode="SRC_OVER" layoutX="280.0" layoutY="1069.0"
+                    mnemonicParsing="false" prefWidth="146.0" styleClass="login" onAction="#handleTestData"
+                    text="Kész!"/>
+        </AnchorPane>
+    </ScrollPane>
+</AnchorPane>
