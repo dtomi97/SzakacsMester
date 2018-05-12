@@ -132,13 +132,15 @@ public class MainController implements Initializable {
                 food_done_list.setItems(observableList);
 
                 CalculateUserLevel calculateUserLevel = new CalculateUserLevel(ud, ud.find(Main.actualUserName).get(0));
-                calculateUserLevel.updateExp(observableList);
+                calculateUserLevel.updateExp(observableList, observableList.size());
                 calculateUserLevel.updateLevel();
-                SceneChanger sceneChanger = new SceneChanger();
 
             }
         }
+    }
 
+    public ObservableList getObservableList() {
+        return observableList;
     }
 
     @FXML

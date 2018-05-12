@@ -3,6 +3,7 @@ package control;
 
 import UserDAO.UserDAO;
 import UserDAO.UserDAOFactory;
+import service.CalculateUserLevel;
 import service.SceneChanger;
 import javafx.event.Event;
 import javafx.fxml.FXML;
@@ -153,7 +154,9 @@ public class PopUpWindowController implements Initializable {
     public void handleTestData() throws IOException{
         if(questionsAreAnswered(initializeQuestions())){
             score = getScoreFromTest();
-
+            CalculateUserLevel calculateUserLevel = new CalculateUserLevel();
+            CalculateUserLevel.updateExpByTest(score);
+            calculateUserLevel.updateLevel();
             changePopUp();
         }
     }
@@ -166,6 +169,10 @@ public class PopUpWindowController implements Initializable {
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         ud = UserDAOFactory.getInstance().createUserDAO();
+    }
+
+    public int getScore() {
+        return score;
     }
 }
 

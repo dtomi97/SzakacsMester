@@ -2,6 +2,7 @@ package service;
 
 import app.Main;
 import control.MainController;
+import control.RegAndLogController;
 import javafx.application.Application;
 import org.json.simple.parser.ParseException;
 import org.junit.Test;
@@ -34,8 +35,8 @@ public class CalculateUserLevelTest {
         }
         Main.actualUserName = "alma";
         MainController mainController = new MainController();
-        CalculateUserLevel calculateUserLevel = new CalculateUserLevel();
-        assertNull(calculateUserLevel.updateExp(mainController.getObservableList(),mainController.getObservableList().size()));
+        CalculateUserLevel calculateUserLevel = new CalculateUserLevel(new RegAndLogController().ud, new RegAndLogController().ud.find(Main.actualUserName).get(0));
+        assertNotNull(calculateUserLevel.updateExp(mainController.getObservableList(), mainController.getObservableList().size()));
         thread.interrupt();
     }
 }

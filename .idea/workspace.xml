@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="064e1623-52f4-4b5c-9aff-a9ea73861206" name="Default" comment="">
+    <list default="true" id="064e1623-52f4-4b5c-9aff-a9ea73861206" name="Default" comment="Adding Unit Tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/model/UserValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/UserValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/elkészítettÉtelek.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/elkészítettÉtelek.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/food.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/food.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kaja.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/kaja.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/UserDAO/UserDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UserDAO/UserDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/control/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/control/PopUpWindowController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/control/PopUpWindowController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/service/CalculateUserLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/CalculateUserLevel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/menu.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/menu.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/popUp.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/popUp.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/service/CalculateUserLevelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/CalculateUserLevelTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/UserDAO/UserDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/UserDAO/UserDAOImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/control/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/control/MainController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/model/UserValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/model/UserValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/service/CalculateUserLevel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/service/CalculateUserLevel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/service/CalculateUserLevelTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/service/CalculateUserLevelTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/service/FoodValidatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/service/FoodValidatorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/service/JsonLoaderTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/service/JsonLoaderTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/service/JsonWriterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/service/JsonWriterTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,6 +31,14 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/SzakacsMester$service_in_SzakacsMester.ic" NAME="service in SzakacsMester Coverage Results" MODIFIED="1526115893547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>service.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/SzakacsMester$app_in_SzakacsMester.ic" NAME="app in SzakacsMester Coverage Results" MODIFIED="1526115065824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>app.*</FILTER>
+    </SUITE>
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -48,11 +72,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CalculateUserLevelTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/service/CalculateUserLevelTest.java">
+      <file leaf-file-name="persistence.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="289">
+              <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -60,8 +84,46 @@
       <file leaf-file-name="CalculateUserLevel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/service/CalculateUserLevel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+            <state relative-caret-position="196">
+              <caret line="35" column="23" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1329#1330#0" expanded="true" />
+                <element signature="e#1373#1374#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PopUpWindowController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/control/PopUpWindowController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="157" column="52" selection-start-line="157" selection-start-column="52" selection-end-line="157" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#4762#4763#0" expanded="true" />
+                <element signature="e#4790#4791#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="popUp.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/popUp.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="107" selection-start-line="9" selection-start-column="107" selection-end-line="9" selection-end-column="107" />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/control/MainController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="365">
+              <caret line="135" column="49" selection-start-line="135" selection-start-column="49" selection-end-line="135" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,20 +131,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FoodValidatorTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/service/FoodValidatorTest.java">
+      <file leaf-file-name="FoodValidator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/service/FoodValidator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserValidator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/model/UserValidator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="127">
+              <caret line="28" column="33" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,38 +143,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserValidatorTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/model/UserValidatorTest.java">
+      <file leaf-file-name="kaja.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/kaja.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="60" column="19" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="food.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/food.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JsonLoaderTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/service/JsonLoaderTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JsonWriterTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/service/JsonWriterTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SceneChangerTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/service/SceneChangerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+              <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="721" />
             </state>
           </provider>
         </entry>
@@ -147,6 +182,11 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="dtomi97" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -161,13 +201,10 @@
         <option value="$PROJECT_DIR$/src/main/java/model/UserDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/control/RegistrationController.java" />
         <option value="$PROJECT_DIR$/src/main/java/control/LoginSceneController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
         <option value="$PROJECT_DIR$/src/main/java/model/Validator.java" />
         <option value="$PROJECT_DIR$/src/main/java/control/RegisterSceneController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/fxml/popUp.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/fxml/login.fxml" />
         <option value="$PROJECT_DIR$/src/main/resources/fxml/userInformation.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/control/PopUpWindowController.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/CalculateUserLevel.java" />
         <option value="$PROJECT_DIR$/src/main/resources/StyleSheet.css" />
         <option value="$PROJECT_DIR$/src/main/resources/food.json" />
@@ -182,27 +219,30 @@
         <option value="$PROJECT_DIR$/src/main/resources/fxml/Receptek.fxml" />
         <option value="$PROJECT_DIR$/nemkaja.json" />
         <option value="$PROJECT_DIR$/src/main/resources/fxml/menu.fxml" />
-        <option value="$PROJECT_DIR$/src/main/java/service/FoodValidator.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/JsonWriter.java" />
-        <option value="$PROJECT_DIR$/src/food.json" />
         <option value="$PROJECT_DIR$/src/main/java/service/JsonLoader.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/SceneChanger.java" />
         <option value="$PROJECT_DIR$/src/test/java/service/SceneChangerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/service/JsonLoaderTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/service/JsonWriterTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/service/FoodValidatorTest.java" />
-        <option value="$PROJECT_DIR$/src/kaja.json" />
         <option value="$PROJECT_DIR$/src/main/java/model/Users.java" />
-        <option value="$PROJECT_DIR$/src/main/java/UserDAO/UserDAOImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/UserDAO/UserDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/control/RegAndLogController.java" />
         <option value="$PROJECT_DIR$/src/main/java/app/Main.java" />
         <option value="$PROJECT_DIR$/src/elkészítettÉtelek.json" />
-        <option value="$PROJECT_DIR$/src/main/java/control/MainController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/service/CalculateUserLevel.java" />
-        <option value="$PROJECT_DIR$/src/test/java/service/CalculateUserLevelTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/UserValidator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/UserDAO/UserDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/FoodValidator.java" />
         <option value="$PROJECT_DIR$/src/test/java/model/UserValidatorTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/service/FoodValidatorTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/service/JsonLoaderTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/service/JsonWriterTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/fxml/popUp.fxml" />
+        <option value="$PROJECT_DIR$/src/food.json" />
+        <option value="$PROJECT_DIR$/src/test/java/service/CalculateUserLevelTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/control/RegAndLogController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/CalculateUserLevel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/control/PopUpWindowController.java" />
+        <option value="$PROJECT_DIR$/src/kaja.json" />
+        <option value="$PROJECT_DIR$/src/main/java/control/MainController.java" />
       </list>
     </option>
   </component>
@@ -223,10 +263,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-8" />
-    <option name="width" value="1296" />
-    <option name="height" value="1000" />
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1939" />
+    <option name="height" value="1049" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -234,7 +274,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -267,6 +306,22 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SzakacsMester" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SzakacsMester" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="control" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SzakacsMester" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SzakacsMester" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -276,6 +331,14 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SzakacsMester" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SzakacsMester" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="UserDAO" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SzakacsMester" type="b2602c69:ProjectViewProjectNode" />
@@ -292,31 +355,11 @@
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="META-INF" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="SzakacsMester" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SzakacsMester" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SzakacsMester" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SzakacsMester" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SzakacsMester" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SzakacsMester" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -353,16 +396,16 @@
       <recent name="C:\Java\remelemVegleges\SzakacsMester\src\main\java" />
       <recent name="C:\Java\remelemVegleges\SzakacsMester\src\main\resources\asserts" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="UserDAO" />
+      <recent name="model" />
+      <recent name="control" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Java\remelemVegleges\SzakacsMester\src\main\resources" />
       <recent name="C:\Java\remelemVegleges\SzakacsMester\src\main\resources\fxml" />
       <recent name="C:\Java\remelemVegleges\SzakacsMester\src\main\java\model" />
       <recent name="C:\Java\remelemVegleges\SzakacsMester\src\main\resources\images" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="UserDAO" />
-      <recent name="model" />
-      <recent name="control" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="DAO" />
@@ -382,25 +425,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserValidatorTest">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="app.App" />
-      <module name="SzakacsMester" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="app.Main" />
       <module name="SzakacsMester" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="service.*" />
+          <option name="PATTERN" value="app.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -408,20 +440,20 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="UserValidatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculateUserLevelTest.updateExp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SzakacsMester" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="model.*" />
+          <option name="PATTERN" value="service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="model" />
-      <option name="MAIN_CLASS_NAME" value="model.UserValidatorTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.CalculateUserLevelTest" />
+      <option name="METHOD_NAME" value="updateExp" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -431,20 +463,43 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="UserValidatorTest.loginValidate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculateUserLevelTest.updateLevel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="SzakacsMester" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="model.*" />
+          <option name="PATTERN" value="service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="model" />
-      <option name="MAIN_CLASS_NAME" value="model.UserValidatorTest" />
-      <option name="METHOD_NAME" value="loginValidate" />
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.CalculateUserLevelTest" />
+      <option name="METHOD_NAME" value="updateLevel" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="JsonWriterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SzakacsMester" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" value="service.JsonWriterTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -461,6 +516,29 @@
       <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="service in SzakacsMester" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SzakacsMester" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="service" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -493,17 +571,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.App" />
+      <item itemvalue="JUnit.service in SzakacsMester" />
+      <item itemvalue="JUnit.JsonWriterTest" />
+      <item itemvalue="JUnit.CalculateUserLevelTest.updateExp" />
+      <item itemvalue="JUnit.CalculateUserLevelTest.updateLevel" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="JUnit.UserValidatorTest" />
-      <item itemvalue="JUnit.UserValidatorTest.loginValidate" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserValidatorTest" />
-        <item itemvalue="JUnit.UserValidatorTest.loginValidate" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.CalculateUserLevelTest.updateExp" />
+        <item itemvalue="JUnit.service in SzakacsMester" />
+        <item itemvalue="JUnit.CalculateUserLevelTest.updateLevel" />
+        <item itemvalue="JUnit.JsonWriterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -520,52 +600,90 @@
       <workItem from="1525270939555" duration="6796000" />
       <workItem from="1525633948570" duration="11000" />
       <workItem from="1525634455725" duration="61031000" />
-      <workItem from="1525854074528" duration="58533000" />
+      <workItem from="1525854074528" duration="58585000" />
+      <workItem from="1526112899171" duration="8284000" />
     </task>
+    <task id="LOCAL-00001" summary="Adding Unit Tests">
+      <created>1526076779179</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1526076779179</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Adding Unit Tests">
+      <created>1526116154801</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1526116154801</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserValidatorTest - 2018.05.12 at 00h 10m 18s.xml">
-      <configuration name="UserValidatorTest" configurationId="JUnit" />
+    <history-entry file="service_in_SzakacsMester - 2018.05.12 at 10h 51m 38s.xml">
+      <configuration name="service in SzakacsMester" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserValidatorTest_loginValidate - 2018.05.12 at 00h 10m 31s.xml">
-      <configuration name="UserValidatorTest.loginValidate" configurationId="JUnit" />
+    <history-entry file="JsonWriterTest - 2018.05.12 at 10h 54m 10s.xml">
+      <configuration name="JsonWriterTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserValidatorTest - 2018.05.12 at 00h 11m 36s.xml">
-      <configuration name="UserValidatorTest" configurationId="JUnit" />
+    <history-entry file="service_in_SzakacsMester - 2018.05.12 at 10h 54m 31s.xml">
+      <configuration name="service in SzakacsMester" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculateUserLevelTest_updateExp - 2018.05.12 at 10h 58m 51s.xml">
+      <configuration name="CalculateUserLevelTest.updateExp" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculateUserLevelTest_updateExp - 2018.05.12 at 11h 00m 39s.xml">
+      <configuration name="CalculateUserLevelTest.updateExp" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculateUserLevelTest_updateExp - 2018.05.12 at 11h 01m 54s.xml">
+      <configuration name="CalculateUserLevelTest.updateExp" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculateUserLevelTest_updateExp - 2018.05.12 at 11h 02m 25s.xml">
+      <configuration name="CalculateUserLevelTest.updateExp" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="service_in_SzakacsMester - 2018.05.12 at 11h 05m 10s.xml">
+      <configuration name="service in SzakacsMester" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculateUserLevelTest_updateExp - 2018.05.12 at 13h 32m 44s.xml">
+      <configuration name="CalculateUserLevelTest.updateExp" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculateUserLevelTest_updateExp - 2018.05.12 at 13h 33m 12s.xml">
+      <configuration name="CalculateUserLevelTest.updateExp" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="126371000" />
+    <option name="totallyTimeSpent" value="134707000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1296" height="1000" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5040453" side_tool="true" weight="0.3074246" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5040453" side_tool="true" weight="0.3062678" />
       <window_info anchor="right" id="Maven Projects" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="3" />
-      <window_info anchor="right" id="Database" order="5" weight="0.2961165" />
+      <window_info anchor="right" id="Database" order="5" weight="0.29597315" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3988604" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49919093" weight="0.32830626" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.49919093" weight="0.32763532" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4959547" weight="0.34686774" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32905984" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4959547" weight="0.45584047" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3295302" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Persistence" order="2" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21601942" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21543624" />
       <window_info anchor="right" id="Bean Validation" order="8" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32830626" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32763532" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -597,7 +715,6 @@
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
       <window_info anchor="right" id="Maven Projects" order="9" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32830626" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21601942" />
       <window_info anchor="right" id="Database" order="5" weight="0.2961165" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -606,8 +723,9 @@
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3988604" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32830626" />
       <window_info anchor="right" id="Bean Validation" order="8" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3988604" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -616,12 +734,37 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adding Unit Tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Unit Tests" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/service/JsonWriterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/service/SceneChangerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/model/UserValidatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="das://f76a9ae5-aa55-45c9-b7f6-f5623c03c2d0/schema/U_S8869R/table/USERS">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -712,23 +855,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SzakacsMester.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
           <caret line="17" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="17" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/NapiAjanlat.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="das://f76a9ae5-aa55-45c9-b7f6-f5623c03c2d0/schema/U_S8869R/table/USERS">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
@@ -737,49 +869,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/control/ShowReceptOnClick.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="83" lean-forward="true" selection-start-line="12" selection-start-column="83" selection-end-line="12" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/Receptek.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="47" column="42" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nemkaja.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/control/PopUpWindowController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="44" column="4" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/control/ShowReceptOnClick.java" />
+    <entry file="file://$PROJECT_DIR$/nemkaja.json" />
     <entry file="jar://C:/Program Files/Java/jdk-9.0.4/lib/src.zip!/javafx.fxml/javafx/fxml/Initializable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="94" selection-start-line="14" selection-start-column="88" selection-end-line="14" selection-end-column="94" />
         </state>
       </provider>
     </entry>
@@ -797,40 +892,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/FoodValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-590">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/JsonWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-153">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/service/SceneChanger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/JsonLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -878,6 +943,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/elkészítettÉtelek.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/UserDAO/UserDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -888,75 +960,68 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/UserValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="27" column="37" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/model/UserValidatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/app/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+        <state relative-caret-position="-85">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/food.json">
+    <entry file="file://$PROJECT_DIR$/src/test/java/service/FoodValidatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="476" />
+        <state relative-caret-position="578">
+          <caret line="45" column="5" lean-forward="true" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/menu.fxml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/service/JsonWriterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/kaja.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="24" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="42" />
+        <state relative-caret-position="153">
+          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/UserDAO/UserDAOImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/JsonWriter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+        <state relative-caret-position="-179">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/control/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="136" column="63" selection-start-line="136" selection-start-column="63" selection-end-line="136" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#4321#4322#0" expanded="true" />
-            <element signature="e#4344#4345#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/elkészítettÉtelek.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Users.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/service/JsonLoaderTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        <state relative-caret-position="111">
+          <caret line="41" column="60" selection-start-line="41" selection-start-column="60" selection-end-line="41" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/JsonLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -967,61 +1032,112 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/service/JsonWriterTest.java">
+    <entry file="file://$PROJECT_DIR$/src/food.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        <state relative-caret-position="85">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="721" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/service/FoodValidatorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/fxml/popUp.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="153">
+          <caret line="9" column="107" selection-start-line="9" selection-start-column="107" selection-end-line="9" selection-end-column="107" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/service/CalculateUserLevelTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/service/CalculateUserLevel.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/UserDAO/UserDAOImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        <state relative-caret-position="96">
+          <caret line="43" column="43" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/service/CalculateUserLevelTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="289">
+          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Users.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/control/RegAndLogController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="769">
-          <caret line="77" column="79" selection-start-line="77" selection-start-column="79" selection-end-line="77" selection-end-column="79" />
+        <state relative-caret-position="17">
+          <caret line="37" column="22" lean-forward="true" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2947#2948#0" expanded="true" />
+            <element signature="e#3012#3013#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/control/PopUpWindowController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="157" column="52" selection-start-line="157" selection-start-column="52" selection-end-line="157" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4762#4763#0" expanded="true" />
+            <element signature="e#4790#4791#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kaja.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="60" column="19" selection-start-line="60" selection-start-column="14" selection-end-line="60" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/CalculateUserLevel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1329#1330#0" expanded="true" />
+            <element signature="e#1373#1374#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/FoodValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="28" column="33" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/UserValidator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/control/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="365">
+          <caret line="135" column="49" selection-start-line="135" selection-start-column="49" selection-end-line="135" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/model/UserValidatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>

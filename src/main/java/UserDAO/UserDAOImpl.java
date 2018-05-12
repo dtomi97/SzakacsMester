@@ -3,6 +3,7 @@ package UserDAO;
 import model.Users;
 import javax.persistence.EntityManager;
 import javax.persistence.TypedQuery;
+import javax.validation.constraints.Null;
 import java.util.List;
 
 public class UserDAOImpl implements UserDAO {
@@ -40,9 +41,9 @@ public class UserDAOImpl implements UserDAO {
     }
 
     @Override
-    public List<Users> find(String username) {
-
-        TypedQuery<Users> q = em.createQuery("SELECT u FROM Users u WHERE u.username='" + username + "'", Users.class);
+    public List<Users> find(String username) throws NullPointerException {
+        TypedQuery<Users> q;
+        q = em.createQuery("SELECT u FROM Users u WHERE u.username='" + username + "'", Users.class);
 
         return q.getResultList();
 

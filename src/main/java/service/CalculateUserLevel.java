@@ -8,8 +8,9 @@ import org.json.simple.JSONObject;
 
 public class CalculateUserLevel {
 
+    public static Long globalUserExp;
     private Long szint = 0L;
-    private Long userExp = 0L;
+    private Long userExp = 1L;
     private UserDAO ud;
     Users user;
 
@@ -17,30 +18,36 @@ public class CalculateUserLevel {
         this.ud = ud;
         this.user = user;
         szint = user.getSzint();
+        userExp = user.getUserTP() + globalUserExp;
     }
 
     public CalculateUserLevel() {
+
     }
 
-    public Long updateExp(ObservableList observableList){
+    public Long updateExp(ObservableList observableList, int size) {
 
 
         JSONObject[] jsonObjects = new JSONObject[Main.jsonLoader.getSizeOfRoot()];
         jsonObjects = Main.jsonLoader.getExp();
 
-        for (int i = 0; i<observableList.size(); i++){
+        for (int i = 0; i < size; i++) {
             JSONObject nameObject = (JSONObject) jsonObjects[i].get("Kaja");
             String name = (String) nameObject.get("Név");
             if(observableList.stream().anyMatch(e -> e.equals(name))){
                 Long exp = (Long) nameObject.get("exp");
                 Long foodlvl = (Long) nameObject.get("Szint");
-              userExp = exp * (foodlvl/szint);
+                userExp += exp * (foodlvl / szint);
             }
         }
 
         ud.updateUserExp(user, userExp);
 
         return userExp;
+    }
+
+    public static void updateExpByTest(int score) {
+        globalUserExp = score * 100L;
     }
 
 
@@ -54,7 +61,9 @@ public class CalculateUserLevel {
         }
         for(int i = 0; i<10; i++ ){
             if(szint == (i+1) && userExp > units[i]){
+                szint++;
                 ud.updateUserlevel(user, szint);
+                ud.updateUserExp(user, 1L);
             }
         }
     }

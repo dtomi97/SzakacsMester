@@ -7,7 +7,7 @@
 <AnchorPane xmlns:fx="http://javafx.com/fxml/1" minHeight="105.0" minWidth="700.0" prefHeight="800.0" prefWidth="800.0"
             xmlns="http://javafx.com/javafx/2.2" fx:controller="control.PopUpWindowController">
     <TextArea editable="false" layoutX="50.0" layoutY="28.0" prefHeight="102.0" prefWidth="700.0"
-              text="Üdv, Csókolom, Hello, Szia, Csá!&#10;Ez itt egy teszt amit ha nem töltesz ki 3 napig üldözni fog egy kanos malac és megdugja a lábad ha hagyod magad.&#10;&#10;"
+              text="A teszt kitöltése segíti a programot, hogy tudja, milyen szinten vagy.Kérlek töltsd ki!&#10;&#10;"
               wrapText="true"/>
     <ScrollPane layoutX="55.0" layoutY="153.0" prefHeight="600.0" prefWidth="691.0">
         <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="1200.0" prefWidth="691.0">
