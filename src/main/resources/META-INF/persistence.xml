@@ -6,8 +6,8 @@
         <properties>
             <property name="hibernate.connection.url" value="jdbc:oracle:thin:@codd.inf.unideb.hu:1521:ora12c"/>
             <property name="hibernate.connection.driver_class" value="oracle.jdbc.driver.OracleDriver" />
-            <property name="hibernate.connection.username" value="U_S8869R"/>
-            <property name="hibernate.connection.password" value="Nikolett2306"/>
+            <property name="hibernate.connection.username" value=""/>
+            <property name="hibernate.connection.password" value=""/>
             <property name="hibernate.archive.autodetection" value="class"/>
             <property name="hibernate.show_sql" value="true"/>
             <property name="hibernate.format_sql" value="true"/>
