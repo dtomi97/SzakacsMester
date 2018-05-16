@@ -3,6 +3,7 @@ package control;
 
 import UserDAO.UserDAO;
 import UserDAO.UserDAOFactory;
+import app.Main;
 import service.CalculateUserLevel;
 import service.SceneChanger;
 import javafx.event.Event;
@@ -17,6 +18,8 @@ import javafx.stage.Modality;
 import javafx.stage.Stage;
 import java.io.IOException;
 import java.net.URL;
+
+import UserDAO.UserDAOFactory;
 import java.util.ResourceBundle;
 
 public class PopUpWindowController implements Initializable {
@@ -43,7 +46,7 @@ public class PopUpWindowController implements Initializable {
     @FXML
     public Button finishedTest;
 
-    private UserDAO ud;
+    private UserDAO ud = UserDAOFactory.getInstance().createUserDAO();
 
 
     private static Stage window = new Stage();
@@ -154,10 +157,15 @@ public class PopUpWindowController implements Initializable {
     public void handleTestData() throws IOException{
         if(questionsAreAnswered(initializeQuestions())){
             score = getScoreFromTest();
-            CalculateUserLevel calculateUserLevel = new CalculateUserLevel();
-            CalculateUserLevel.updateExpByTest(score);
+            CalculateUserLevel calculateUserLevel = new CalculateUserLevel(ud, ud.find(Main.actualUserName).get(0));
+            calculateUserLevel.updateExpByTest(score);
             calculateUserLevel.updateLevel();
+
+            SceneChanger sceneChanger = new SceneChanger();
+            sceneChanger.menuSceneChange(Main.getWindow(), "/fxml/menu.fxml");
+
             changePopUp();
+
         }
     }
 

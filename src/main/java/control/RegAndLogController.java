@@ -1,6 +1,7 @@
 package control;
 
 import app.Main;
+import service.JsonWriter;
 import service.SceneChanger;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -50,6 +51,10 @@ public class RegAndLogController implements Initializable {
                 if (v.regPasswordValidate(pwd.getText())) {
                     ud.createUser(Main.actualUserName, pwd.getText(), 1L, 1L);
                     Main.actualUserlevel =  ud.find(Main.actualUserName).get(0).getSzint();
+
+                    JsonWriter jsonWriter = new JsonWriter();
+                    jsonWriter.createObjectForCurrentUser();
+
                     sceneChanger.napisceneChange(Main.getWindow(), "/fxml/NapiAjanlat.fxml");
 
                     PopUpWindowController.display("Teszt");
@@ -76,6 +81,7 @@ public class RegAndLogController implements Initializable {
         if(v.loginValidate(userName.getText(), pwd.getText())){
             feedbackLabel.setText("Sikeres Belépés!");
             Main.actualUserlevel = ud.find(Main.actualUserName).get(0).getSzint();
+
             sceneChanger.napisceneChange(Main.getWindow(), "/fxml/NapiAjanlat.fxml");
 
         }

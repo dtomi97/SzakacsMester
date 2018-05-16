@@ -13,10 +13,10 @@ import java.io.Reader;
 public class FoodValidator {
 
 
-    JSONParser jsonParser;
-    Reader fileReader;
-    Object object;
-    JSONArray root;
+    private JSONParser jsonParser;
+    private Reader fileReader;
+    private Object object;
+    private JSONArray root;
 
 
     public FoodValidator() throws IOException, ParseException {
@@ -31,12 +31,21 @@ public class FoodValidator {
         boolean exists = true;
 
         for(int i= 0; i < getSizeOfRoot(); i++){
+            JSONObject[] jsonObjects = new JSONObject[root.size()];
 
-            JSONObject jsonObject =(JSONObject) root.get(i);
+            jsonObjects[i] = (JSONObject) root.get(i);
 
-            if (jsonObject.get("Név").equals(name)) {
-                exists = false;
+            JSONArray jsonArray = (JSONArray) jsonObjects[i].get(Main.actualUserName);
+
+            if (!(jsonArray == null)) {
+                for (int j = 0; j < jsonArray.size(); j++) {
+                    JSONObject jsonObject = (JSONObject) jsonArray.get(j);
+                    if (jsonObject.get("Név").equals(name)) {
+                        exists = false;
+                    }
+                }
             }
+
         }
 
         return exists;

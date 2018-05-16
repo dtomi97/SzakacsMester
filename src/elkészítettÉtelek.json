@@ -1,35 +1,47 @@
 [
   {
-    "Név": "Paradicsomos tészta olasz módra"
+    "Tamagocsi12": [
+      {
+        "Név": "Húsvéti sonkás-sajtos kalács"
+      },
+      {
+        "Név": "Töltött bundáskenyér"
+      },
+      {
+        "Név": "Zöldséges penne"
+      },
+      {
+        "Név": "Rakott sonkás spagetti"
+      },
+      {
+        "Név": " "
+      }
+    ]
   },
   {
-    "Név": "Paradicsomos tészta olasz módra"
+    "Papaja12": [
+      {
+        "Név": "Rakott sonkás spagetti"
+      },
+      {
+        "Név": "Gyors tepsis burgonya debrecenivel"
+      },
+      {
+        "Név": "Paradicsomos tészta olasz módra"
+      },
+      {
+        "Név": "Zöldséges penne"
+      },
+      {
+        "Név": " "
+      }
+    ]
   },
   {
-    "Név": "Paradicsomos tészta olasz módra"
-  },
-  {
-    "Név": "Paradicsomos tészta olasz módra"
-  },
-  {
-    "Név": "Paradicsomos tészta olasz módra"
-  },
-  {
-    "Név": "Paradicsomos tészta olasz módra"
-  },
-  {
-    "Név": "Paradicsomos tészta olasz módra"
-  },
-  {
-    "Név": "Zöldséges penne"
-  },
-  {
-    "Név": "Húsvéti sonkás-sajtos kalács"
-  },
-  {
-    "Név": "Töltött bundáskenyér"
-  },
-  {
-    "Név": "Szezámmagos sonkával töltött kifli"
+    "Tanganyika12": [
+      {
+        "Név": "Paradicsomos tészta olasz módra"
+      }
+    ]
   }
 ]

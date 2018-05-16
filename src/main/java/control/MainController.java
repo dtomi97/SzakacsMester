@@ -62,21 +62,22 @@ public class MainController implements Initializable {
     @FXML
     private ListView<String> food_done_list = new ListView<>();
 
-    JsonWriter jsonWriter = new JsonWriter();
-    FoodValidator foodValidator = new FoodValidator();
+    private JsonWriter jsonWriter = new JsonWriter();
+    private FoodValidator foodValidator = new FoodValidator();
 
 
-    UserDAO ud;
+    private UserDAO ud;
 
-    ObservableList observableList;
+    private ObservableList observableList;
+
+    SceneChanger sceneChanger = new SceneChanger();
 
     public MainController() throws IOException, ParseException {
     }
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-            ud = UserDAOFactory.getInstance().createUserDAO();
-
+        ud = UserDAOFactory.getInstance().createUserDAO();
 
         Profil.setBorder(Border.EMPTY);
 
@@ -96,9 +97,6 @@ public class MainController implements Initializable {
 
     @FXML
     private void handleContentButton(ActionEvent event ) throws IOException, ParseException {
-
-        SceneChanger sceneChanger = new SceneChanger();
-
         if (Profil.isVisited()) {
             sceneChanger.menuSceneChange(Main.getWindow(),"/fxml/menu.fxml");
             Profil.setVisited(false);
@@ -134,6 +132,7 @@ public class MainController implements Initializable {
                 CalculateUserLevel calculateUserLevel = new CalculateUserLevel(ud, ud.find(Main.actualUserName).get(0));
                 calculateUserLevel.updateExp(observableList, observableList.size());
                 calculateUserLevel.updateLevel();
+                sceneChanger.menuSceneChange(Main.getWindow(), "/fxml/menu.fxml");
 
             }
         }
