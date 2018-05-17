@@ -17,8 +17,25 @@ public class FoodValidatorTest {
 
     @Test
     public void validateExists() throws IOException, ParseException {
+        Thread thread = new Thread(() -> {
+            try {
+                Application.launch(Main.class);
+            } catch (Throwable t) {
+                Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, t);
+            }
+
+        });
+        thread.setDaemon(true);
+        thread.start();
+        try {
+            sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        Main.actualUserName = "Tomika12";
         FoodValidator foodValidator = new FoodValidator();
-        assertTrue(foodValidator.validateExists("Tomcsika12"));
+        assertTrue(foodValidator.validateExists("Tomika12"));
+        thread.interrupt();
     }
 
     @Test
@@ -40,7 +57,7 @@ public class FoodValidatorTest {
         }
         Main.actualUserName = "alma";
         FoodValidator foodValidator = new FoodValidator();
-        assertFalse(foodValidator.validateName("Barbarossa1"));
+        assertFalse(foodValidator.validateName("Tomika12"));
         thread.interrupt();
 
     }
