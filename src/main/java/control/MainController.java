@@ -32,7 +32,7 @@ public class MainController implements Initializable {
     @FXML
     public Hyperlink Kilepes;
     @FXML
-    public ListView achievment_list;
+    public ListView achievment_list = new ListView<>();
     @FXML
     public Label menuNameLabel;
     @FXML
@@ -92,6 +92,11 @@ public class MainController implements Initializable {
             food_done_list.setItems(observableList);
         }catch (IOException | ParseException e){
             e.printStackTrace();
+        }
+        ObservableList achievmentList = FXCollections.observableArrayList();
+        if (observableList.size() >= 2) {
+            achievmentList.add("Kezdők szerencséje!");
+            achievment_list.setItems(achievmentList);
         }
     }
 
